@@ -1,0 +1,2278 @@
+#EXTM3U
+#EXTINF:1, RTP 1
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/71.ts
+#EXTINF:1, RTP 1 HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2438.ts
+#EXTINF:1, RTP 2
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/72.ts
+#EXTINF:1, RTP 2 HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/3323.ts
+#EXTINF:9, SIC
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1856.ts
+#EXTINF:11, SIC HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2439.ts
+#EXTINF:13, TVI
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/75.ts
+#EXTINF:15, TVI HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2440.ts
+#EXTINF:1, RTP MEMORIA
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/80.ts
+#EXTINF:1, RTP INTERNACIONAL
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1332.ts
+#EXTINF:1, RTP MADEIRA
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/81.ts
+#EXTINF:1, RTP ACORES
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/85.ts
+#EXTINF:1, RTP Africa
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/82.ts
+#EXTINF:27, SIC CARAS
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/978.ts
+#EXTINF:29, SIC CARAS HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10591.ts
+#EXTINF:31, SIC Radical
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/84.ts
+#EXTINF:33, SIC RADICAL HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/6633.ts
+#EXTINF:35, SIC MULHER
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/87.ts
+#EXTINF:37, SIC MULHER HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/7740.ts
+#EXTINF:39, TVI REALITY
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/86.ts
+#EXTINF:41, TVI REALITY CAMARAS
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2822.ts
+#EXTINF:43, TVI FICCAO
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/88.ts
+#EXTINF:66, SIC NOTICIAS
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/77.ts
+#EXTINF:68, SIC NOTICIAS HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10722.ts
+#EXTINF:1, RTP 3
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/73.ts
+#EXTINF:72, Tvi 24
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/78.ts
+#EXTINF:74, SPORT.TV+
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/4148.ts
+#EXTINF:76, SPORT.TV+ HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/5770.ts
+#EXTINF:90, SPORT.TV1
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1896.ts
+#EXTINF:92, SPORT.TV 1 HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/143.ts
+#EXTINF:94, SPORT.TV 1 FULLHD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/101.ts
+#EXTINF:96, SPORT.TV2
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/103.ts
+#EXTINF:98, SPORT.TV 2 HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/5386.ts
+#EXTINF:100, SPORT.TV 2 FULLHD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/415.ts
+#EXTINF:102, SPORT.TV3
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/104.ts
+#EXTINF:104, SPORT.TV 3 HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/5387.ts
+#EXTINF:106, SPORT.TV 3 FULLHD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/974.ts
+#EXTINF:108, SPORT.TV4
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/106.ts
+#EXTINF:110, Sport.TV4 HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/5388.ts
+#EXTINF:112, Sport.TV 4 FULLHD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/107.ts
+#EXTINF:114, SPORT.TV5
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/418.ts
+#EXTINF:116, Sport.TV5 HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/5389.ts
+#EXTINF:118, Sport.TV5 FULLHD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/108.ts
+#EXTINF:120, SPORT.TV 4K UHD (BETA)
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12288.ts
+#EXTINF:122, Benfica TV 1
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/113.ts
+#EXTINF:124, Benfica TV 1 HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2241.ts
+#EXTINF:126, Benfica TV 1 FULLHD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/112.ts
+#EXTINF:131, NBA
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2825.ts
+#EXTINF:133, NBA HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10428.ts
+#EXTINF:135, NFL NOW
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/4930.ts
+#EXTINF:143, EUROSPORT 1
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/139.ts
+#EXTINF:145, EUROSPORT 1 HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/135.ts
+#EXTINF:147, EUROSPORT 2
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/136.ts
+#EXTINF:149, EUROSPORT NEWS
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/133.ts
+#EXTINF:153, Motorsport.tv
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/116.ts
+#EXTINF:157, SPORTING TV
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/109.ts
+#EXTINF:159, SPORTING TV HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2298.ts
+#EXTINF:166, TVCINE 1
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/89.ts
+#EXTINF:168, TVCINE 1 HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1256.ts
+#EXTINF:170, TVCINE 2
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/90.ts
+#EXTINF:172, TVCINE 2 HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1255.ts
+#EXTINF:174, TVCINE 3
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/91.ts
+#EXTINF:176, TVCINE 3 HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1254.ts
+#EXTINF:178, TVCINE 4
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/92.ts
+#EXTINF:180, TVCINE 4 HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1253.ts
+#EXTINF:182, TVCINE SERIES
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1096.ts
+#EXTINF:184, TVSERIES HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1257.ts
+#EXTINF:186, SYFY
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/93.ts
+#EXTINF:188, SyFy HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/4684.ts
+#EXTINF:190, AMC
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/131.ts
+#EXTINF:192, AMC HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/4157.ts
+#EXTINF:194, Cinemundo
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/96.ts
+#EXTINF:196, Hollywood
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/95.ts
+#EXTINF:198, HOLLYWOOD HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/94.ts
+#EXTINF:200, FOX
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10430.ts
+#EXTINF:202, FOX HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/98.ts
+#EXTINF:204, FOX MOVIES
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/97.ts
+#EXTINF:206, FOX MOVIES HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/5394.ts
+#EXTINF:208, FOX COMEDY
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/988.ts
+#EXTINF:210, FOX Comedy HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/5771.ts
+#EXTINF:212, FOX CRIME
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2828.ts
+#EXTINF:214, FOX CRIME HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/99.ts
+#EXTINF:216, Fox Life
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10856.ts
+#EXTINF:218, Fox Life HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/430.ts
+#EXTINF:220, AXN
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/4685.ts
+#EXTINF:222, AXN HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/999.ts
+#EXTINF:224, AXN WHITE
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2827.ts
+#EXTINF:226, Axn White HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/429.ts
+#EXTINF:228, AXN BLACK
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2826.ts
+#EXTINF:230, AXN BLACK HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/100.ts
+#EXTINF:232, SUNDANCE HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/5393.ts
+#EXTINF:234, Zee Cinema
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/9182.ts
+#EXTINF:236, BBC Entertainment
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/416.ts
+#EXTINF:238, SIC K
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/121.ts
+#EXTINF:240, SIC K HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/6630.ts
+#EXTINF:252, FATIMA TV (WEB.CAM)
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/9974.ts
+#EXTINF:283, C MUSIC
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2830.ts
+#EXTINF:287, MTV MUSIC
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1095.ts
+#EXTINF:292, VH1 Classic
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/3322.ts
+#EXTINF:294, AFRO MUSIC
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/1000.ts
+#EXTINF:1, RTP 1 LOW BITRATE
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2237.ts
+#EXTINF:1, RTP 2 LOW BITRATE
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2236.ts
+#EXTINF:301, SIC LOW BITRATE
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2235.ts
+#EXTINF:303, TVI LOW BITRATE
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2228.ts
+#EXTINF:361, (DE) ANIXE HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13195.ts
+#EXTINF:363, (DE) ARD HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13196.ts
+#EXTINF:365, (DE) Arte
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13197.ts
+#EXTINF:367, (DE) Cartoon Network
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13192.ts
+#EXTINF:369, (DE) DELUXE MUSIC HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13199.ts
+#EXTINF:371, (DE) Disney Channel
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13200.ts
+#EXTINF:373, (DE) Disney Jr
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13193.ts
+#EXTINF:375, (DE) DMAX
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13231.ts
+#EXTINF:377, (DE) EuroSport HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13201.ts
+#EXTINF:379, (DE) FOX HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13202.ts
+#EXTINF:381, (DE) Kabel 1
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13203.ts
+#EXTINF:383, (DE) Kika
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13204.ts
+#EXTINF:385, (DE) N-TV
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13205.ts
+#EXTINF:387, (DE) N24 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13206.ts
+#EXTINF:389, (DE) Nat Geo Wild
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13207.ts
+#EXTINF:391, (DE) National Geographic
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13208.ts
+#EXTINF:393, (DE) Ndr HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13209.ts
+#EXTINF:395, (DE) Nickelodeon
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13194.ts
+#EXTINF:397, (DE) ORF 2
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13210.ts
+#EXTINF:399, (DE) ORF Eins
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13211.ts
+#EXTINF:401, (DE) Phoenix
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13212.ts
+#EXTINF:403, (DE) Pro 7
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13215.ts
+#EXTINF:405, (DE) Pro 7 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13213.ts
+#EXTINF:407, (DE) PRO7 MAXX
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13214.ts
+#EXTINF:409, (DE) RTL I
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13216.ts
+#EXTINF:411, (DE) RTL II
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13217.ts
+#EXTINF:413, (DE) RTL living
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13218.ts
+#EXTINF:415, (DE) RTL Nitro
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13219.ts
+#EXTINF:417, (DE) Sat 1
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13220.ts
+#EXTINF:419, (DE) Servus TV HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13221.ts
+#EXTINF:421, (DE) Sky 13 Street HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13222.ts
+#EXTINF:423, (DE) Sky Action HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13223.ts
+#EXTINF:425, (DE) Sky Atlantic
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13224.ts
+#EXTINF:427, (DE) SKY Atlantic 1 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13198.ts
+#EXTINF:429, (DE) Sky BundesLiga 1 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13225.ts
+#EXTINF:431, (DE) Sky Cinema HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13226.ts
+#EXTINF:433, (DE) Sky Cinema Hits
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13235.ts
+#EXTINF:435, (DE) Sky Cinema Plus 1 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13227.ts
+#EXTINF:437, (DE) Sky Cinema Plus 24
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13228.ts
+#EXTINF:439, (DE) Sky Comedy
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13229.ts
+#EXTINF:441, (DE) Sky Discovery Channel HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13230.ts
+#EXTINF:443, (DE) Sky Emotion
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13232.ts
+#EXTINF:445, (DE) Sky Fox
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13233.ts
+#EXTINF:447, (DE) Sky History Channel
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13234.ts
+#EXTINF:449, (DE) Sky Krimi
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13236.ts
+#EXTINF:451, (DE) Sky NatGeo Wild HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13237.ts
+#EXTINF:453, (DE) Sky select 1 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13238.ts
+#EXTINF:455, (DE) Sky select 2 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13239.ts
+#EXTINF:457, (DE) Sky select 3 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13240.ts
+#EXTINF:459, (DE) Sky select 4 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13241.ts
+#EXTINF:461, (DE) Sky select 5 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13242.ts
+#EXTINF:463, (DE) Sky Select 6 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13243.ts
+#EXTINF:465, (DE) Sky Select 7 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13244.ts
+#EXTINF:467, (DE) Sky Select 8 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13245.ts
+#EXTINF:469, (DE) Sky Select 9 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13246.ts
+#EXTINF:471, (DE) Sky Sport 1 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13247.ts
+#EXTINF:473, (DE) Sky Sport 1 US HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13248.ts
+#EXTINF:475, (DE) Sky Sport 2 HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13249.ts
+#EXTINF:477, (DE) Sky TNT Film HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13250.ts
+#EXTINF:479, (DE) Sky TNT Serie HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13251.ts
+#EXTINF:481, (DE) Spiegel Geschichte HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13252.ts
+#EXTINF:483, (DE) Sport DigiTal HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13253.ts
+#EXTINF:485, (DE) SRF1
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13254.ts
+#EXTINF:487, (DE) SRF2
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13255.ts
+#EXTINF:489, (DE) Super RTL
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13256.ts
+#EXTINF:491, (DE) SWR HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13257.ts
+#EXTINF:493, (DE) SYFY
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13258.ts
+#EXTINF:495, (DE) VOX
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13259.ts
+#EXTINF:497, (DE) Wdr HD
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13260.ts
+#EXTINF:499, (DE) ZDF
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13261.ts
+#EXTINF:501, (DE) ZDF INFO
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13263.ts
+#EXTINF:503, (DE) ZDF NEO
+#EXTGRP:Alemanha
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13262.ts
+#EXTINF:505, (ES) A&E
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12937.ts
+#EXTINF:507, (ES) Antena 3
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12999.ts
+#EXTINF:509, (ES) Antena 3 Internacional
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12938.ts
+#EXTINF:511, (ES) AXN HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12945.ts
+#EXTINF:513, (ES) Axn White HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12939.ts
+#EXTINF:515, (ES) Barca TV
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12940.ts
+#EXTINF:517, (ES) bein LaLiga
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12957.ts
+#EXTINF:519, (ES) Bein Sport ES HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12941.ts
+#EXTINF:521, (ES) BOING
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12967.ts
+#EXTINF:523, (ES) Calle 13 Spain
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12942.ts
+#EXTINF:525, (ES) Canal   Accion HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12944.ts
+#EXTINF:527, (ES) Canal   Comedia HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12947.ts
+#EXTINF:529, (ES) Canal  Cocina
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12946.ts
+#EXTINF:531, (ES) Canal  Cuatro HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12948.ts
+#EXTINF:533, (ES) Canal  Dcine
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12949.ts
+#EXTINF:535, (ES) Canal  de las Estrellas
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12950.ts
+#EXTINF:537, (ES) Canal  Deportes HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12951.ts
+#EXTINF:539, (ES) Canal  Estrenos HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12952.ts
+#EXTINF:541, (ES) Canal  Fox HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12953.ts
+#EXTINF:543, (ES) Canal  Futpol
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12954.ts
+#EXTINF:545, (ES) Canal  Golf
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12955.ts
+#EXTINF:547, (ES) Canal  HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12956.ts
+#EXTINF:549, (ES) Canal  Nova
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12958.ts
+#EXTINF:551, (ES) Canal  Serie Xtra
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12959.ts
+#EXTINF:553, (ES) Canal  Series
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12960.ts
+#EXTINF:555, (ES) Canal  Toros
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12961.ts
+#EXTINF:557, (ES) Canal Decasa
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12963.ts
+#EXTINF:559, (ES) Canal Deportes 2
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12962.ts
+#EXTINF:561, (ES) Canal Golf HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12943.ts
+#EXTINF:563, (ES) Caza Y Pesca
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12964.ts
+#EXTINF:565, (ES) Clan TVE
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12965.ts
+#EXTINF:567, (ES) Comedy Central
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12966.ts
+#EXTINF:569, (ES) Cuatro
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13000.ts
+#EXTINF:571, (ES) Disney Chaneel
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12969.ts
+#EXTINF:573, (ES) Disney Junior
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12968.ts
+#EXTINF:575, (ES) Disney XD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12970.ts
+#EXTINF:577, (ES) FDF
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12971.ts
+#EXTINF:579, (ES) Fox Life
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12972.ts
+#EXTINF:581, (ES) History
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12973.ts
+#EXTINF:583, (ES) Hollywood
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12974.ts
+#EXTINF:585, (ES) La  Sexta HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12975.ts
+#EXTINF:587, (ES) La 1
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12976.ts
+#EXTINF:589, (ES) La 2
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12977.ts
+#EXTINF:591, (ES) Movi Star F1
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12978.ts
+#EXTINF:593, (ES) Movis Star Moto Gp
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12979.ts
+#EXTINF:595, (ES) National Geographic
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12980.ts
+#EXTINF:597, (ES) National Geographic Wild
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12981.ts
+#EXTINF:599, (ES) Real Madrid
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12982.ts
+#EXTINF:601, (ES) Taquilla 1
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12983.ts
+#EXTINF:603, (ES) Taquilla 10
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12984.ts
+#EXTINF:605, (ES) Taquilla 2
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12985.ts
+#EXTINF:607, (ES) Taquilla 3
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12986.ts
+#EXTINF:609, (ES) Taquilla 4
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12987.ts
+#EXTINF:611, (ES) Taquilla 5
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12988.ts
+#EXTINF:613, (ES) Taquilla 6
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12989.ts
+#EXTINF:615, (ES) Taquilla 7
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12990.ts
+#EXTINF:617, (ES) Taquilla 8
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12991.ts
+#EXTINF:619, (ES) Taquilla 9
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12992.ts
+#EXTINF:621, (ES) TCM
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12993.ts
+#EXTINF:623, (ES) TELECINCO HD
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13001.ts
+#EXTINF:625, (ES) Teledeportes
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12994.ts
+#EXTINF:627, (ES) Teleticino
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12995.ts
+#EXTINF:629, (ES) TNT
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12996.ts
+#EXTINF:631, (ES) TV Galicia
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12997.ts
+#EXTINF:633, (ES) Viajar
+#EXTGRP:Filmes & Series
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12998.ts
+#EXTINF:635, (FR)  RTS UN
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13180.ts
+#EXTINF:637, (FR) 13EME RUE HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13091.ts
+#EXTINF:639, (FR) 6TER HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13092.ts
+#EXTINF:641, (FR) AB MOTEUR
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13169.ts
+#EXTINF:643, (FR) AB1
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13158.ts
+#EXTINF:645, (FR) Action
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13093.ts
+#EXTINF:647, (FR) ANIMAUX
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13094.ts
+#EXTINF:649, (FR) ARTE
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13191.ts
+#EXTINF:651, (FR) Bein Sport 1
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13095.ts
+#EXTINF:653, (FR) Bein Sport 2
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13096.ts
+#EXTINF:655, (FR) Bein Sport 3
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13097.ts
+#EXTINF:657, (FR) BFM TV
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13098.ts
+#EXTINF:659, (FR) C8
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13118.ts
+#EXTINF:661, (FR) CANAL   DECALE HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13101.ts
+#EXTINF:663, (FR) Canal  Sport
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13108.ts
+#EXTINF:665, (FR) CANAL J
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13170.ts
+#EXTINF:667, (FR) Canal PLUS
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13099.ts
+#EXTINF:669, (FR) CANAL PLUS CINEMA HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13100.ts
+#EXTINF:671, (FR) CANAL PLUS FAMILY HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13102.ts
+#EXTINF:673, (FR) Canal PLUS Series
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13103.ts
+#EXTINF:675, (FR) Cartoon Network
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13109.ts
+#EXTINF:677, (FR) CHASSE & PECHE
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13110.ts
+#EXTINF:679, (FR) Cherie25
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13165.ts
+#EXTINF:681, (FR) CINE  CLASSIC
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13112.ts
+#EXTINF:683, (FR) CINE FX
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13111.ts
+#EXTINF:685, (FR) Cine PLUS Emotion
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13113.ts
+#EXTINF:687, (FR) CINE PLUS Famiz
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13114.ts
+#EXTINF:689, (FR) Cine PLUS Frisson
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13115.ts
+#EXTINF:691, (FR) CINE POLAR
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13145.ts
+#EXTINF:693, (FR) COMEDIE
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13116.ts
+#EXTINF:695, (FR) CSTAR
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13117.ts
+#EXTINF:697, (FR) DISCOVERY
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13119.ts
+#EXTINF:699, (FR) Discovery science
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13181.ts
+#EXTINF:701, (FR) DISNEY CHANNEL
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13120.ts
+#EXTINF:703, (FR) DISNEY CINEMA
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13171.ts
+#EXTINF:705, (FR) Disney Junior
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13135.ts
+#EXTINF:707, (FR) DISNEY XD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13172.ts
+#EXTINF:709, (FR) E! Entertainment
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13121.ts
+#EXTINF:711, (FR) EQUIDIA LIFE
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13173.ts
+#EXTINF:713, (FR) Eurosport 1
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13122.ts
+#EXTINF:715, (FR) Eurosport 2
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13123.ts
+#EXTINF:717, (FR) Foot 24
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13159.ts
+#EXTINF:719, (FR) France 2
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13127.ts
+#EXTINF:721, (FR) FRANCE 24
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13156.ts
+#EXTINF:723, (FR) France 3
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13126.ts
+#EXTINF:725, (FR) France 4
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13125.ts
+#EXTINF:727, (FR) France 5
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13124.ts
+#EXTINF:729, (FR) France O
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13128.ts
+#EXTINF:731, (FR) GAME ONE
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13182.ts
+#EXTINF:733, (FR) GOLF
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13160.ts
+#EXTINF:735, (FR) GONG
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13183.ts
+#EXTINF:737, (FR) Gulli
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13129.ts
+#EXTINF:739, (FR) HD1
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13166.ts
+#EXTINF:741, (FR) Histoire
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13167.ts
+#EXTINF:743, (FR) INFOSPORT
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13130.ts
+#EXTINF:745, (FR) J ONE
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13184.ts
+#EXTINF:747, (FR) L.EQUIPE 21 HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13168.ts
+#EXTINF:749, (FR) LA UNE HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13132.ts
+#EXTINF:751, (FR) LCI
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13185.ts
+#EXTINF:753, (FR) M6
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13133.ts
+#EXTINF:755, (FR) M6 MUSIC
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13134.ts
+#EXTINF:757, (FR) MANGAS
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13136.ts
+#EXTINF:759, (FR) NAT GEO HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13186.ts
+#EXTINF:761, (FR) Nat Geo Wild
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13137.ts
+#EXTINF:763, (FR) NATIONAL GEO
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13138.ts
+#EXTINF:765, (FR) NRJ 12
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13139.ts
+#EXTINF:767, (FR) NRJ HITS
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13174.ts
+#EXTINF:769, (FR) NT 1
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13140.ts
+#EXTINF:771, (FR) OCS CHOC HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13141.ts
+#EXTINF:773, (FR) OCS CITY
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13142.ts
+#EXTINF:775, (FR) OCS GEANTS
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13175.ts
+#EXTINF:777, (FR) OCS MAX
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13176.ts
+#EXTINF:779, (FR) PARAMOUNT
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13187.ts
+#EXTINF:781, (FR) PARIS PREMIERE
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13143.ts
+#EXTINF:783, (FR) PIWI
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13177.ts
+#EXTINF:785, (FR) Planete  A&E
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13157.ts
+#EXTINF:787, (FR) Planete PLUS CI
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13144.ts
+#EXTINF:789, (FR) RMC DECOUVERTE
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13188.ts
+#EXTINF:791, (FR) RTL9 HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13146.ts
+#EXTINF:793, (FR) Science et Vie
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13147.ts
+#EXTINF:795, (FR) SEASONS
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13178.ts
+#EXTINF:797, (FR) SERIE CLUB
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13148.ts
+#EXTINF:799, (FR) SFR SPORT 1 HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13107.ts
+#EXTINF:801, (FR) SFR SPORT 2 HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13106.ts
+#EXTINF:803, (FR) SFR SPORT 3 HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13105.ts
+#EXTINF:805, (FR) SFR SPORT 5 HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13104.ts
+#EXTINF:807, (FR) SYFY
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13149.ts
+#EXTINF:809, (FR) TELETOON
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13161.ts
+#EXTINF:811, (FR) Teva
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13162.ts
+#EXTINF:813, (FR) TF1
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13150.ts
+#EXTINF:815, (FR) TIJI
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13179.ts
+#EXTINF:817, (FR) TMC
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13151.ts
+#EXTINF:819, (FR) Toute L Histoire
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13152.ts
+#EXTINF:821, (FR) TREK
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13163.ts
+#EXTINF:823, (FR) TV-BREIZH
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13164.ts
+#EXTINF:825, (FR) TV5 Monde
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13155.ts
+#EXTINF:827, (FR) USHUAIA TV HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13153.ts
+#EXTINF:829, (FR) W9
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13154.ts
+#EXTINF:831, (FR) WEO
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13189.ts
+#EXTINF:833, (FR) Zou Zou
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13190.ts
+#EXTINF:835, (FR)RTS DEUX HD
+#EXTGRP:França
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13131.ts
+#EXTINF:837, (uk) Amc
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13002.ts
+#EXTINF:839, (uk) Animal Planet
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13003.ts
+#EXTINF:841, (uk) At The Races
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13004.ts
+#EXTINF:843, (uk) Baby TV
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13005.ts
+#EXTINF:845, (uk) BBC 1
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13006.ts
+#EXTINF:847, (uk) BBC 2
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13007.ts
+#EXTINF:849, (uk) BBC 3
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13008.ts
+#EXTINF:851, (uk) BBC 4
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13009.ts
+#EXTINF:853, (uk) BBC NEWS 24
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13010.ts
+#EXTINF:855, (uk) Boomerang
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13011.ts
+#EXTINF:857, (uk) Boxnation
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13012.ts
+#EXTINF:859, (uk) BT Sport 1
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13013.ts
+#EXTINF:861, (uk) BT Sport 2
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13014.ts
+#EXTINF:863, (uk) BT Sport ESPN
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13015.ts
+#EXTINF:865, (uk) BT Sport Europe
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13016.ts
+#EXTINF:867, (uk) CBS Action
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13017.ts
+#EXTINF:869, (uk) CBS Reality
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13018.ts
+#EXTINF:871, (uk) Channel 4
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13019.ts
+#EXTINF:873, (uk) Channel 5
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13020.ts
+#EXTINF:875, (uk) Chelsea TV
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13021.ts
+#EXTINF:877, (uk) CI
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13022.ts
+#EXTINF:879, (uk) DISCOVERY
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13023.ts
+#EXTINF:881, (uk) Discovery History
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13024.ts
+#EXTINF:883, (uk) Discovery Home & Health
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13025.ts
+#EXTINF:885, (uk) Discovery Science
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13026.ts
+#EXTINF:887, (uk) Discovery Shed
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13027.ts
+#EXTINF:889, (uk) Discovery Turbo
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13028.ts
+#EXTINF:891, (uk) Disney
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13030.ts
+#EXTINF:893, (uk) Disney Junior
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13031.ts
+#EXTINF:895, (uk) Disney XD
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13032.ts
+#EXTINF:897, (uk) DMax
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13033.ts
+#EXTINF:899, (uk) E!
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13034.ts
+#EXTINF:901, (uk) E4
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13035.ts
+#EXTINF:903, (uk) Eurosport
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13036.ts
+#EXTINF:905, (uk) Eurosport 2
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13037.ts
+#EXTINF:907, (uk) Fine Living
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13038.ts
+#EXTINF:909, (uk) Food Network
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13039.ts
+#EXTINF:911, (uk) Fox
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13040.ts
+#EXTINF:913, (uk) H2
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13041.ts
+#EXTINF:915, (uk) History
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13042.ts
+#EXTINF:917, (uk) Horror
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13043.ts
+#EXTINF:919, (uk) ITV 1
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13044.ts
+#EXTINF:921, (uk) ITV 2
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13045.ts
+#EXTINF:923, (uk) ITV 3
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13046.ts
+#EXTINF:925, (uk) ITV 4
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13047.ts
+#EXTINF:927, (uk) ITV Be
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13048.ts
+#EXTINF:929, (uk) MUTV
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13050.ts
+#EXTINF:931, (uk) Nat Geo Wild
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13051.ts
+#EXTINF:933, (uk) National Geographic
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13052.ts
+#EXTINF:935, (uk) Nick JR
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13053.ts
+#EXTINF:937, (uk) Nick Toons
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13054.ts
+#EXTINF:939, (uk) Nickloedon
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13055.ts
+#EXTINF:941, (uk) Pick
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13056.ts
+#EXTINF:943, (uk) Premier Sport
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13057.ts
+#EXTINF:945, (uk) Racing
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13058.ts
+#EXTINF:947, (uk) RTE 1
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13059.ts
+#EXTINF:949, (uk) RTE 2
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13060.ts
+#EXTINF:951, (uk) Setanta
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13061.ts
+#EXTINF:953, (uk) Sky Arts 1
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13062.ts
+#EXTINF:955, (uk) Sky Atlantic
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13063.ts
+#EXTINF:957, (uk) Sky Drama & Romance
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13064.ts
+#EXTINF:959, (uk) Sky Living
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13065.ts
+#EXTINF:961, (uk) Sky Movie Sci-Fi
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13066.ts
+#EXTINF:963, (uk) Sky Movies Action
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13067.ts
+#EXTINF:965, (uk) Sky Movies Comedy
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13068.ts
+#EXTINF:967, (uk) Sky Movies Disney
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13069.ts
+#EXTINF:969, (uk) Sky Movies Family
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13070.ts
+#EXTINF:971, (uk) Sky Movies Greats
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13071.ts
+#EXTINF:973, (uk) Sky Movies Premiere
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13072.ts
+#EXTINF:975, (uk) Sky Movies Select
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13073.ts
+#EXTINF:977, (uk) Sky Movies Showcase
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13074.ts
+#EXTINF:979, (uk) Sky Movies Thriller
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13075.ts
+#EXTINF:981, (uk) Sky News
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13076.ts
+#EXTINF:983, (uk) Sky One
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13077.ts
+#EXTINF:985, (uk) Sky Sport 1
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13080.ts
+#EXTINF:987, (uk) Sky Sport 2
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13081.ts
+#EXTINF:989, (uk) Sky Sport 3
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13082.ts
+#EXTINF:991, (uk) Sky Sport 4
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13083.ts
+#EXTINF:993, (uk) Sky Sport 5
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13084.ts
+#EXTINF:995, (uk) Sky Sport F1
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13078.ts
+#EXTINF:997, (uk) Sky Sport News
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13085.ts
+#EXTINF:999, (uk) Sky Sports F1 HD
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13079.ts
+#EXTINF:1001, (uk) Syfy
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13086.ts
+#EXTINF:1003, (uk) TCM
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13089.ts
+#EXTINF:1005, (uk) TLC
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13088.ts
+#EXTINF:1007, (uk) TG4
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13087.ts
+#EXTINF:1009, (uk) VIVA
+#EXTGRP:Inglaterra
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13090.ts
+#EXTINF:1011, (uk)Motorsport.tv
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13049.ts
+#EXTINF:1013, (IT) BEIN SPORT NEWS HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10721.ts
+#EXTINF:1015, (IT) Canal 5
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12280.ts
+#EXTINF:1017, (IT) Cinema 24HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10720.ts
+#EXTINF:1019, (IT) Discovery
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10719.ts
+#EXTINF:1021, (IT) Fox-1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10718.ts
+#EXTINF:1023, (IT) Fox-Animation
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10717.ts
+#EXTINF:1025, (IT) Fox-Comedy
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10716.ts
+#EXTINF:1027, (IT) Fox-Crime
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10715.ts
+#EXTINF:1029, (IT) Fox-Crime- 1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10714.ts
+#EXTINF:1031, (IT) Fox-Crime- 2
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10713.ts
+#EXTINF:1033, (IT) Fox-Life
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10712.ts
+#EXTINF:1035, (IT) Fox-Life- 1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10711.ts
+#EXTINF:1037, (IT) Fox-Sport
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10710.ts
+#EXTINF:1039, (IT) Gambero-Rosso
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10709.ts
+#EXTINF:1041, (IT) History
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10708.ts
+#EXTINF:1043, (IT) History- 1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10707.ts
+#EXTINF:1045, (IT) NatGeo-Wild
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10706.ts
+#EXTINF:1047, (IT) Premium_-Disney_Channel
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10705.ts
+#EXTINF:1049, (IT) Premium_-Disney_Junior--1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10704.ts
+#EXTINF:1051, (IT) Premium_Action_24 HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10703.ts
+#EXTINF:1053, (IT) Premium_BBC
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10702.ts
+#EXTINF:1055, (IT) Premium_Cartoon_Network
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10701.ts
+#EXTINF:1057, (IT) Premium_Cinema-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10700.ts
+#EXTINF:1059, (IT) Premium_Cinema_24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10699.ts
+#EXTINF:1061, (IT) Premium_Cinema_2_24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10698.ts
+#EXTINF:1063, (IT) Premium_Comedy
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10697.ts
+#EXTINF:1065, (IT) Premium_Crime_24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10696.ts
+#EXTINF:1067, (IT) Premium_Discovery_World
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10695.ts
+#EXTINF:1069, (IT) Premium_Disney_Junior
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10694.ts
+#EXTINF:1071, (IT) Premium_Emotion
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10693.ts
+#EXTINF:1073, (IT) Premium_Energy
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10692.ts
+#EXTINF:1075, (IT) Premium_Joi
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10691.ts
+#EXTINF:1077, (IT) Premium_Stories
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10690.ts
+#EXTINF:1079, (IT) Premium_Studio-Universal
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10689.ts
+#EXTINF:1081, (IT) RAI-1-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10688.ts
+#EXTINF:1083, (IT) RAI-2-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10687.ts
+#EXTINF:1085, (IT) RAI-3-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10686.ts
+#EXTINF:1087, (IT) RAI-4 HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12278.ts
+#EXTINF:1089, (IT) RAI-5 HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12279.ts
+#EXTINF:1091, (IT) RSI-La1-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10685.ts
+#EXTINF:1093, (IT) SKY-CINEMA-1-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10678.ts
+#EXTINF:1095, (IT) SKY-FOX-COMEDY-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10667.ts
+#EXTINF:1097, (IT) Sky-Atlantic-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10684.ts
+#EXTINF:1099, (IT) Sky-Calcio-1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10683.ts
+#EXTINF:1101, (IT) Sky-Calcio-2
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10682.ts
+#EXTINF:1103, (IT) Sky-Cinema 24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10681.ts
+#EXTINF:1105, (IT) Sky-Cinema- 1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10680.ts
+#EXTINF:1107, (IT) Sky-Cinema-1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10679.ts
+#EXTINF:1109, (IT) Sky-Cinema-Classics
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10677.ts
+#EXTINF:1111, (IT) Sky-Cinema-Comedy
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10676.ts
+#EXTINF:1113, (IT) Sky-Cinema-Cult
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10675.ts
+#EXTINF:1115, (IT) Sky-Cinema-Cult-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10674.ts
+#EXTINF:1117, (IT) Sky-Cinema-Family
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10673.ts
+#EXTINF:1119, (IT) Sky-Cinema-Hits
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10672.ts
+#EXTINF:1121, (IT) Sky-Cinema-Max
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10671.ts
+#EXTINF:1123, (IT) Sky-Cinema-Max- 1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10670.ts
+#EXTINF:1125, (IT) Sky-Cinema-Max--1-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10669.ts
+#EXTINF:1127, (IT) Sky-Cinema-Passion
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10668.ts
+#EXTINF:1129, (IT) Sky-Italia-Calcio-1-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10666.ts
+#EXTINF:1131, (IT) Sky-Italia-Calcio-2-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10665.ts
+#EXTINF:1133, (IT) Sky-Italia-NatGeo-Wild-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10664.ts
+#EXTINF:1135, (IT) Sky-Italia-Sport-24-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10663.ts
+#EXTINF:1137, (IT) Sky-Moto-GP
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10662.ts
+#EXTINF:1139, (IT) Sky-Primafila-1-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10661.ts
+#EXTINF:1141, (IT) Sky-Primafila-10-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10660.ts
+#EXTINF:1143, (IT) Sky-Primafila-11-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10659.ts
+#EXTINF:1145, (IT) Sky-Primafila-12-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10658.ts
+#EXTINF:1147, (IT) Sky-Primafila-13-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10657.ts
+#EXTINF:1149, (IT) Sky-Primafila-14-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10656.ts
+#EXTINF:1151, (IT) Sky-Primafila-15-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10655.ts
+#EXTINF:1153, (IT) Sky-Primafila-16-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10654.ts
+#EXTINF:1155, (IT) Sky-Primafila-2-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10653.ts
+#EXTINF:1157, (IT) Sky-Primafila-3-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10652.ts
+#EXTINF:1159, (IT) Sky-Primafila-4-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10651.ts
+#EXTINF:1161, (IT) Sky-Primafila-5-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10650.ts
+#EXTINF:1163, (IT) Sky-Primafila-6-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10649.ts
+#EXTINF:1165, (IT) Sky-Primafila-7-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10648.ts
+#EXTINF:1167, (IT) Sky-Primafila-8-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10647.ts
+#EXTINF:1169, (IT) Sky-Primafila-9-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10646.ts
+#EXTINF:1171, (IT) Sky-Sport-1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10645.ts
+#EXTINF:1173, (IT) Sky-Sport-2
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10644.ts
+#EXTINF:1175, (IT) Sky-Sport-24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10643.ts
+#EXTINF:1177, (IT) Sky-Sport-3
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10642.ts
+#EXTINF:1179, (IT) Sky-Sport-F1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10641.ts
+#EXTINF:1181, (IT) Sky-Sport-Plus
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10640.ts
+#EXTINF:1183, (IT) Sky-Sports-1-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10639.ts
+#EXTINF:1185, (IT) Sky-Sports-2-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10638.ts
+#EXTINF:1187, (IT) Sky-Sports-F1-HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10637.ts
+#EXTINF:1189, (IT) Sky-Supercalcio
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10636.ts
+#EXTINF:1191, (IT) Sky-Tg-24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10635.ts
+#EXTINF:1193, (IT) Sky-Uno
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10634.ts
+#EXTINF:1195, (IT) Sky-Uno- 1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10633.ts
+#EXTINF:1197, (IT) SkyIT_Axn
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10631.ts
+#EXTINF:1199, (IT) SkyIT_Calcio1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10630.ts
+#EXTINF:1201, (IT) SkyIT_Cinema_-24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10629.ts
+#EXTINF:1203, (IT) SkyIT_Cinema_1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10628.ts
+#EXTINF:1205, (IT) SkyIT_Cinema_Classics
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10627.ts
+#EXTINF:1207, (IT) SkyIT_Cinema_Comedy
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10626.ts
+#EXTINF:1209, (IT) SkyIT_Cinema_Cult
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10625.ts
+#EXTINF:1211, (IT) SkyIT_Cinema_Family
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10624.ts
+#EXTINF:1213, (IT) SkyIT_Cinema_Hits
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10623.ts
+#EXTINF:1215, (IT) SkyIT_Cinema_Max
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10622.ts
+#EXTINF:1217, (IT) SkyIT_Cinema_Max_-1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10621.ts
+#EXTINF:1219, (IT) SkyIT_Cinema_Passion
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10620.ts
+#EXTINF:1221, (IT) SkyIT_Discovery
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10619.ts
+#EXTINF:1223, (IT) SkyIT_Eurosport1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10618.ts
+#EXTINF:1225, (IT) SkyIT_Fox_Animation
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10617.ts
+#EXTINF:1227, (IT) SkyIT_Fox_Comedy
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10616.ts
+#EXTINF:1229, (IT) SkyIT_Fox_Crime
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10615.ts
+#EXTINF:1231, (IT) SkyIT_Fox_Italia
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10614.ts
+#EXTINF:1233, (IT) SkyIT_Fox_Life
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10613.ts
+#EXTINF:1235, (IT) SkyIT_History_Channel
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10612.ts
+#EXTINF:1237, (IT) SkyIT_Nat_Geo
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10611.ts
+#EXTINF:1239, (IT) SkyIT_Nat_Geo_Wild
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10610.ts
+#EXTINF:1241, (IT) SkyIT_Sport
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10609.ts
+#EXTINF:1243, (IT) SkyIT_Sport_1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10608.ts
+#EXTINF:1245, (IT) SkyIT_Sport_2
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10607.ts
+#EXTINF:1247, (IT) SkyIT_Sport_24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10606.ts
+#EXTINF:1249, (IT) SkyIT_Sport_3
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10605.ts
+#EXTINF:1251, (IT) SkyIT_Sport_F1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10604.ts
+#EXTINF:1253, (IT) SkyIT_Sport_MotoGp
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10603.ts
+#EXTINF:1255, (IT) SkyIT_Supercalcio
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10602.ts
+#EXTINF:1257, (IT) SkyIT_TVSat_2000
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10600.ts
+#EXTINF:1259, (IT) SkyIT_Tg_24
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10601.ts
+#EXTINF:1261, (IT) SkyIT_Uno
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10599.ts
+#EXTINF:1263, (IT) SkyIT_Uno_-1
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10598.ts
+#EXTINF:1265, (IT) Sky_Cinema_Classics_HD
+#EXTGRP:Italia
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/10632.ts
+#EXTINF:1411, (BRZ) Music Box Brasil
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12401.ts
+#EXTINF:1413, (BRZ) Music Box Brasil HD
+#EXTGRP:Portugal
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/12400.ts
+#EXTINF:1526, (USA)  ABC FAMILY/SPARK
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13351.ts
+#EXTINF:1528, (USA)  Bein Sports USA HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13360.ts
+#EXTINF:1530, (USA)  TNT_HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13325.ts
+#EXTINF:1532, (USA) A&E HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13357.ts
+#EXTINF:1534, (USA) ABC Action News
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13355.ts
+#EXTINF:1536, (USA) ABC HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13356.ts
+#EXTINF:1538, (USA) ACTIONMAX
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13338.ts
+#EXTINF:1540, (USA) AFN Movie
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13350.ts
+#EXTINF:1542, (USA) AFN NEWS
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13354.ts
+#EXTINF:1544, (USA) AFN PRIME ATLANTIC
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13353.ts
+#EXTINF:1546, (USA) AFN PRIME PACIFIC
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13352.ts
+#EXTINF:1548, (USA) AFN SPORTS
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13349.ts
+#EXTINF:1550, (USA) AFN SPORTS 2
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13348.ts
+#EXTINF:1552, (USA) AMC HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13347.ts
+#EXTINF:1554, (USA) American Heroes Channel
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13337.ts
+#EXTINF:1556, (USA) Bloomberg TV  1080p HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13358.ts
+#EXTINF:1558, (USA) BRAVO HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13345.ts
+#EXTINF:1560, (USA) CARTOON NETWORK
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13303.ts
+#EXTINF:1562, (USA) CBS ACTION
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13344.ts
+#EXTINF:1564, (USA) Cinemax 5 Star Max
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13340.ts
+#EXTINF:1566, (USA) CINEMAX HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13342.ts
+#EXTINF:1568, (USA) Cinemax MoreMax HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13341.ts
+#EXTINF:1570, (USA) CNBC-US (nbc at 3pm)
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13339.ts
+#EXTINF:1572, (USA) CNN HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13359.ts
+#EXTINF:1574, (USA) COOKING CHANNEL
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13332.ts
+#EXTINF:1576, (USA) CW
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13336.ts
+#EXTINF:1578, (USA) Destination America
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13279.ts
+#EXTINF:1580, (USA) Discovery HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13334.ts
+#EXTINF:1582, (USA) DISNEY XD HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13335.ts
+#EXTINF:1584, (USA) E!
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13331.ts
+#EXTINF:1586, (USA) ESPN
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13330.ts
+#EXTINF:1588, (USA) ESPN 2
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13329.ts
+#EXTINF:1590, (USA) Fight Network
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13328.ts
+#EXTINF:1592, (USA) Food Network HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13327.ts
+#EXTINF:1594, (USA) Fox News HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13323.ts
+#EXTINF:1596, (USA) FOX NY
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13346.ts
+#EXTINF:1598, (USA) FOX SOCCER PLUS
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13326.ts
+#EXTINF:1600, (USA) Fox Soccer Plus HD US
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13324.ts
+#EXTINF:1602, (USA) Fox Sports 1 HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13322.ts
+#EXTINF:1604, (USA) Fox Sports 2 HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13321.ts
+#EXTINF:1606, (USA) FreeForm HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13320.ts
+#EXTINF:1608, (USA) FX HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13319.ts
+#EXTINF:1610, (USA) Golf HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13317.ts
+#EXTINF:1612, (USA) H2
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13316.ts
+#EXTINF:1614, (USA) HallMark HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13315.ts
+#EXTINF:1616, (USA) HBO Comedy (nbc at 3pm)
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13313.ts
+#EXTINF:1618, (USA) HBO Family
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13312.ts
+#EXTINF:1620, (USA) HBO HD 1
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13311.ts
+#EXTINF:1622, (USA) HBO HD 2
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13310.ts
+#EXTINF:1624, (USA) HBO Signature
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13309.ts
+#EXTINF:1626, (USA) HBO Zone
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13308.ts
+#EXTINF:1628, (USA) HGTV
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13307.ts
+#EXTINF:1630, (USA) HISTORY
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13306.ts
+#EXTINF:1632, (USA) IFC
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13294.ts
+#EXTINF:1634, (USA) Investigation Discovery HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13305.ts
+#EXTINF:1636, (USA) MSNBC HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13343.ts
+#EXTINF:1638, (USA) National Geographic-US
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13333.ts
+#EXTINF:1640, (USA) NBA HD
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13301.ts
+#EXTINF:1642, (USA) NBC
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13300.ts
+#EXTINF:1644, (USA) NBC GOLF
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13299.ts
+#EXTINF:1646, (USA) NBC Sport
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13304.ts
+#EXTINF:1648, (USA) NFL NETWORK
+#EXTGRP:Desporto
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13297.ts
+#EXTINF:1650, (USA) NHL Network
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13296.ts
+#EXTINF:1652, (USA) OWN
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13298.ts
+#EXTINF:1654, (USA) Red Bull TV
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13314.ts
+#EXTINF:1656, (USA) RT America
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13278.ts
+#EXTINF:1658, (USA) Showcase
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13292.ts
+#EXTINF:1660, (USA) Showtime
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13293.ts
+#EXTINF:1662, (USA) SPIKE HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13291.ts
+#EXTINF:1664, (USA) Starz Cinema HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13286.ts
+#EXTINF:1666, (USA) Starz Encore
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13302.ts
+#EXTINF:1668, (USA) Starz_Comedy
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13280.ts
+#EXTINF:1670, (USA) SYFY HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13284.ts
+#EXTINF:1672, (USA) TBS
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13283.ts
+#EXTINF:1674, (USA) Tennis Channel HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13282.ts
+#EXTINF:1676, (USA) The Blaze
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13285.ts
+#EXTINF:1678, (USA) TLC HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13281.ts
+#EXTINF:1680, (USA) TSN 2
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13289.ts
+#EXTINF:1682, (USA) TSN 3
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13288.ts
+#EXTINF:1684, (USA) TSN 4
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13287.ts
+#EXTINF:1686, (USA) TSN-1
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13290.ts
+#EXTINF:1688, (USA) USA NETWORK
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13277.ts
+#EXTINF:1690, (USA) VH1 HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13295.ts
+#EXTINF:1692, (USA)LIFETIME HD
+#EXTGRP:USA
+http://tvhdglobal.dynu.com:6969/live/AndreConrado/F8MYMoq33L/13318.ts
+#EXTINF:1694, Dia De Surf 2 017 Pt Eng Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13599.mp4
+#EXTINF:1696, A Idade Do Gelo O Big Bang 2016 Anim Pt
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13583.mp4
+#EXTINF:1698, A Minha Vida De Courgette 2016 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13584.mp4
+#EXTINF:1700, A Procura De Dori 2016(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13585.mp4
+#EXTINF:1702, A Viagem De Harlo 2015(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13586.mp4
+#EXTINF:1704, A Vida Secreta Dos Nossos Bichos 2016(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13587.mp4
+#EXTINF:1706, Alvin E Os Esquilos 2 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13589.mp4
+#EXTINF:1708, Alvin E Os Esquilos 3 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13590.mp4
+#EXTINF:1710, Alvin E Os Esquilos Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13591.mp4
+#EXTINF:1712, Baby Boss 2017 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13699.mp4
+#EXTINF:1714, Anastasia Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13592.mp4
+#EXTINF:1716, Angry Birds 2016(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13588.mp4
+#EXTINF:1718, Animais Unidos Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13593.mp4
+#EXTINF:1720, Arthur Christmas Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13594.mp4
+#EXTINF:1722, Carros 3 2017 Portugues 1080p
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13596.mp4
+#EXTINF:1724, Cegonhas 2016 Anim Pt
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13595.mp4
+#EXTINF:1726, Dragon Ball Z O Renascimento De Freeza 2015 (anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13598.mp4
+#EXTINF:1728, Frozen-reino Do Gelo 2015 (anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13600.mp4
+#EXTINF:1730, Gru O Maldisposto 3 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13601.mp4
+#EXTINF:1732, Kubo E As Duas Cordas 2016 Anim Pt
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13602.mp4
+#EXTINF:1734, Kung Fu Panda 3(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13603.mp4
+#EXTINF:1736, Lego Batman O Filme 2017 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13604.mp4
+#EXTINF:1738, Minimos(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13605.mp4
+#EXTINF:1740, Nocturnal Animals 2016
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13606.mp4
+#EXTINF:1742, Norm
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13607.mp4
+#EXTINF:1744, O Principezinho 2015(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13608.mp4
+#EXTINF:1746, Ozzy Rapido E Peludo 2016 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13609.mp4
+#EXTINF:1748, Petes Dragon 2016(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13610.mp4
+#EXTINF:1750, Ratchet & Clank 2016(anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13611.mp4
+#EXTINF:1752, Rock Dog 2016 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13612.mp4
+#EXTINF:1754, Sahara 2017 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13613.mp4
+#EXTINF:1756, Sing Pt Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13614.mp4
+#EXTINF:1758, Smurfs The Lost Village 2017 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13615.mp4
+#EXTINF:1760, The Emoji Movie 2017 1080p Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13617.mp4
+#EXTINF:1762, Trolls 2016 (anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13616.mp4
+#EXTINF:1764, Uma Aventura No Jurassico 2016 Anim Pt
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13618.mp4
+#EXTINF:1766, Vaiana 2016 Anim
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13619.mp4
+#EXTINF:1768, Zootopia 2016 (anim)
+#EXTGRP:Filmes Animacao
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13620.mp4
+#EXTINF:2059, Assassins Creed 2016 3d
+#EXTGRP:Filmes 3d
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13621.mp4
+#EXTINF:2061, Captain America Civil War 2016 3d
+#EXTGRP:Filmes 3d
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13622.mp4
+#EXTINF:2063, Ghost In The Shell 2017 3d H-sbs
+#EXTGRP:Filmes 3d
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13623.mp4
+#EXTINF:2065, Guardians Of The Galaxy Vol 2 2017 3d
+#EXTGRP:Filmes 3d
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13624.mp4
+#EXTINF:2067, Kong Skull Island 2017-hsbs
+#EXTGRP:Filmes 3d
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13625.mp4
+#EXTINF:2069, Rogue One A Star Wars Story 3d H-sbs
+#EXTGRP:Filmes 3d
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13626.mp4
+#EXTINF:2071, Assassins Creed 2016 4k
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13627.mp4
+#EXTINF:2073, Fantastic Beasts And Where To Find Them 2016 4k
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13628.mp4
+#EXTINF:2075, Guardians Of The Galaxy Vol 2 2017 4k
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13629.mp4
+#EXTINF:2077, Logan 2017 4k X265
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13630.mp4
+#EXTINF:2079, Pirates Of The Caribbean Dead Men Tell No Tales 2017 4k
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13631.mp4
+#EXTINF:2081, Spider-man Homecoming 2017 4k X265
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13632.mp4
+#EXTINF:2083, The Fast Of The Furious 2017 4k
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13633.mp4
+#EXTINF:2085, Transformer The Last Knight 2017 4k
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13634.mp4
+#EXTINF:2087, War For The Planet Of The Apes 2017 4k X265
+#EXTGRP:Filmes 4k
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13635.mp4
+#EXTINF:2089, 13 Reasons Why S01 E01
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13636.mp4
+#EXTINF:2091, 13 Reasons Why S01 E02
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13637.mp4
+#EXTINF:2093, 13 Reasons Why S01 E03
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13638.mp4
+#EXTINF:2095, 13 Reasons Why S01 E04
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13639.mp4
+#EXTINF:2097, 13 Reasons Why S01 E05
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13640.mp4
+#EXTINF:2099, 13 Reasons Why S01 E06
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13641.mp4
+#EXTINF:2101, 13 Reasons Why S01 E07
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13642.mp4
+#EXTINF:2103, 13 Reasons Why S01 E08
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13643.mp4
+#EXTINF:2105, 13 Reasons Why S01 E09
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13644.mp4
+#EXTINF:2107, 13 Reasons Why S01 E10
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13645.mp4
+#EXTINF:2109, 13 Reasons Why S01 E11
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13646.mp4
+#EXTINF:2111, 13 Reasons Why S01 E12
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13647.mp4
+#EXTINF:2113, 13 Reasons Why S01 E13
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13648.mp4
+#EXTINF:2115, Fear The Walking Dead S03 E01
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13649.mp4
+#EXTINF:2117, Fear The Walking Dead S03 E02
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13650.mp4
+#EXTINF:2119, Fear The Walking Dead S03 E03
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13651.mp4
+#EXTINF:2121, Fear The Walking Dead S03 E04
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13652.mp4
+#EXTINF:2123, Fear The Walking Dead S03 E05
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13653.mp4
+#EXTINF:2125, Fear The Walking Dead S03 E06
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13654.mp4
+#EXTINF:2127, Game Of Thrones S07 E01
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13655.mp4
+#EXTINF:2129, Game Of Thrones S07 E02
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13656.mp4
+#EXTINF:2131, Game Of Thrones S07 E03
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13657.mp4
+#EXTINF:2133, Game Of Thrones S07 E04
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13658.mp4
+#EXTINF:2135, Game Of Thrones S07 E05
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13659.mp4
+#EXTINF:2137, Game Of Thrones S07 E06
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13660.mp4
+#EXTINF:2139, Game Of Thrones S07 E07
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13661.mp4
+#EXTINF:2141, Narcos S03 E01
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13662.mp4
+#EXTINF:2143, Narcos S03 E02
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13663.mp4
+#EXTINF:2145, Narcos S03 E03
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13664.mp4
+#EXTINF:2147, Narcos S03 E04
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13665.mp4
+#EXTINF:2149, Narcos S03 E05
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13666.mp4
+#EXTINF:2151, Narcos S03 E06
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13667.mp4
+#EXTINF:2153, Narcos S03 E07
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13668.mp4
+#EXTINF:2155, Narcos S03 E08
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13669.mp4
+#EXTINF:2157, Narcos S03 E09
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13670.mp4
+#EXTINF:2159, Narcos S03 E10
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13671.mp4
+#EXTINF:2161, Preacher S02 E01
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13672.mp4
+#EXTINF:2163, Preacher S02 E02
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13673.mp4
+#EXTINF:2165, Preacher S02 E03
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13674.mp4
+#EXTINF:2167, Stranger Things S01 E01 Chapter One The Vanishing Of Will Byers 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13675.mp4
+#EXTINF:2169, Stranger Things S01 E02 Chapter Two The Weirdo On Maple Street 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13676.mp4
+#EXTINF:2171, Stranger Things S01 E03 Chapter Three Holly Jolly 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13677.mp4
+#EXTINF:2173, Stranger Things S01 E04 Chapter Four The Body 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13678.mp4
+#EXTINF:2175, Stranger Things S01 E05 Chapter Five The Flea And The Acrobat 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13679.mp4
+#EXTINF:2177, Stranger Things S01 E06 Chapter Six The Monster 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13680.mp4
+#EXTINF:2179, Stranger Things S01 E07 Chapter Seven The Bathtub 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13681.mp4
+#EXTINF:2181, Stranger Things S01 E08 Chapter Eight The Upside Down 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13682.mp4
+#EXTINF:2183, Stranger Things S02 E01 Chapter One Madmax 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13683.mp4
+#EXTINF:2185, Stranger Things S02 E02 Chapter Two Trick Or Treat Freak 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13684.mp4
+#EXTINF:2187, Stranger Things S02 E03 Chapter Three The Pollywog 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13685.mp4
+#EXTINF:2189, Stranger Things S02 E04 Chapter Four Will The Wise 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13686.mp4
+#EXTINF:2191, Stranger Things S02 E05 Chapter Five Dig Dug 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13687.mp4
+#EXTINF:2193, Stranger Things S02 E06 Chapter Six The Spy 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13688.mp4
+#EXTINF:2195, Stranger Things S02 E07 Chapter Seven The Lost Sister 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13689.mp4
+#EXTINF:2197, Stranger Things S02 E08 Chapter Eight The Mind Flayer 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13690.mp4
+#EXTINF:2199, Stranger Things S02 E09 Chapter Nine The Gate 1080p
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13691.mp4
+#EXTINF:2201, Twin Peaks S03 E01
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13692.mp4
+#EXTINF:2203, Twin Peaks S03 E02
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13693.mp4
+#EXTINF:2205, Twin Peaks S03 E03
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13694.mp4
+#EXTINF:2207, Twin Peaks S03 E04
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13695.mp4
+#EXTINF:2209, Twin Peaks S03 E05
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13696.mp4
+#EXTINF:2211, Twin Peaks S03 E06
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13697.mp4
+#EXTINF:2213, Twin Peaks S03 E07
+#EXTGRP:Series
+http://tvhdglobal.dynu.com:6969/movie/AndreConrado/F8MYMoq33L/13698.mp4

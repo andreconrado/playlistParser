@@ -1,0 +1,67 @@
+{
+	"preferences": {
+		"RTP": {
+			"id": 1,
+			"logo": "lll",
+			"group": "Portugal"
+		},
+		"SIC": {
+			"logo": "lll",
+			"group": "Portugal"
+		},
+		"TVI": {
+			"logo": "lll",
+			"group": "Portugal"
+		},
+		"FATIMA TV": {
+			"logo": "lll",
+			"group": "Portugal"
+		},
+		"SPORT.TV": {
+			"logo": "lll",
+			"group": "Desporto"
+		},
+		"SPORTING": {
+			"group": "Desporto"
+		},
+		"EUROSPORT": {
+			"group": "Desporto"
+		},
+		"BENFICA": {
+			"group": "Desporto"
+		},
+		"NFL": {
+			"logo": "lll",
+			"group": "Desporto"
+		},
+		"NBA": {
+			"logo": "lll",
+			"group": "Desporto"
+		},
+		"(DE)": {
+			"group": "Alemanha"
+		},
+		"(ES)": {
+			"group": "Espanha"
+		},
+		"(FR)": {
+			"group": "França"
+		},
+		"(UK)": {
+			"group": "Inglaterra"
+		},
+		"(IT)": {
+			"group": "Italia"
+		},
+		"(BR)": {
+			"group": "Brasil"
+		},
+		"(USA)": {
+			"group": "USA"
+		},
+		"XXX": {
+			"group": "XXX",
+			"disable": true
+		}
+	}
+}
