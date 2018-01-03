@@ -3,6 +3,7 @@ package com.playlist.domain;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Optional;
+
 import org.apache.commons.text.WordUtils;
 
 /**
@@ -17,7 +18,7 @@ public class Preferences
 	 * Getter for preferences <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @return the preferences {@link HashMap<String,PreferencesChannel>}
 	 */
 	public HashMap< String, PreferencesChannel > getPreferences()
@@ -29,7 +30,7 @@ public class Preferences
 	 * Setter for preferences <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @param preferences the preferences to set
 	 */
 	public void setPreferences( HashMap< String, PreferencesChannel > preferences )
@@ -38,11 +39,11 @@ public class Preferences
 	}
 
 	/**
-	 * 
+	 *
 	 * The <b>findPreferenceChannel</b> method returns {@link Optional<PreferencesChannel>} <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @param m3uChannel.getName()
 	 * @return
 	 */
@@ -57,7 +58,8 @@ public class Preferences
 				return Optional.of( value );
 			}
 			if ( m3uChannel.getGroupName().toLowerCase().contains( "Filme".toLowerCase() ) ||
-				m3uChannel.getGroupName().toLowerCase().contains( "Serie".toLowerCase() ) )
+					m3uChannel.getGroupName().toLowerCase().contains( "Serie".toLowerCase() )  ||
+					m3uChannel.getGroupName().toLowerCase().contains( "Fimes".toLowerCase() ) )
 			{
 				value.setGroup( WordUtils.capitalizeFully( m3uChannel.getGroupName().trim() ) );
 				return Optional.of( value );

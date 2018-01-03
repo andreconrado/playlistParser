@@ -8,14 +8,14 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
 import java.util.stream.Stream;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.core.io.Resource;
@@ -26,6 +26,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.playlist.domain.M3UChannel;
 import com.playlist.domain.Preferences;
@@ -38,7 +39,7 @@ public class ParserController
 	private Resource	configuration;
 	@Value( "classpath:preferences.json" )
 	private Resource	preferencesFile;
-	
+
 	@Value( "classpath:application.properties" )
 	private Resource	propertiesFile;
 
@@ -60,15 +61,15 @@ public class ParserController
 	}
 
 	/**
-	 * 
+	 *
 	 * The <b>parser</b> method returns {@link ResponseEntity<InputStreamResource>} <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-12-29
-	 * 
+	 *
 	 * <br>
 	 * url example: /parser?username=AndreConrado&password=teste&output=newPlaylist.m3u Heroku example:
 	 * https://iptv-playlist-parser.herokuapp.com/parser?username=name&password=pass&output=playlist.m3u8
-	 * 
+	 *
 	 * @param username
 	 * @param password
 	 * @param output
@@ -76,10 +77,10 @@ public class ParserController
 	 */
 	@RequestMapping( value = "/parser", method = RequestMethod.GET )
 	public
-					ResponseEntity< InputStreamResource >
-					parser(	@RequestParam( value = "username", required = true ) String username,
-							@RequestParam( value = "password", required = true ) String password,
-							@RequestParam( value = "output", required = false, defaultValue = "playlist.m3u8" ) String output )
+	ResponseEntity< InputStreamResource >
+	parser(	@RequestParam( value = "username", required = true ) String username,
+			@RequestParam( value = "password", required = true ) String password,
+			@RequestParam( value = "output", required = false, defaultValue = "playlist.m3u8" ) String output )
 	{
 		try
 		{
@@ -91,7 +92,7 @@ public class ParserController
 			ObjectMapper mapper = new ObjectMapper();
 			Preferences preferences = new Preferences();
 			preferences = mapper.readValue( preferencesFile.getInputStream(), Preferences.class );
-			final List< String > lines = new ArrayList<>();
+			final List< String > lines = new LinkedList<>();
 			try (	InputStream is = new URL( url ).openConnection().getInputStream();
 					BufferedReader reader = new BufferedReader( new InputStreamReader( is ) );
 					Stream< String > stream = reader.lines() )
@@ -116,6 +117,7 @@ public class ParserController
 					if ( line.contains( "►" ) )
 					{
 						groupName = line.split( "►►►" )[ 1 ].replaceAll( "◄", "" );
+						System.out.println("Novo grupo: " + groupName);
 					}
 					else
 					{
@@ -253,11 +255,11 @@ public class ParserController
 				printWriter.close();
 			}
 			/***
-			 * 
+			 *
 			 */
 			InputStreamResource resource = new InputStreamResource( new FileInputStream( newPlaylistFile ) );
-			return ResponseEntity.ok().header( HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" + output ).contentType( MediaType.ALL )
-							.body( resource );
+			return ResponseEntity.ok().header( HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" + output ).contentType( MediaType.APPLICATION_XML )
+					.body( resource );
 		}
 		catch ( IOException e )
 		{
