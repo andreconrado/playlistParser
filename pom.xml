@@ -83,11 +83,11 @@
 				<version>2.0.2</version>
 				<configuration>
 					<appName>iptv-playlist-parser</appName>
+					<jdkVersion>1.8</jdkVersion>
 					<includeTarget>false</includeTarget>
 					<includes>
 						<include>${basedir}/${full-artifact-name}</include>
 					</includes>
-					<jdkVersion>1.8</jdkVersion>
 					<processTypes>
 						<web>java $JAVA_OPTS -Dserver.port=$PORT -jar ${full-artifact-name}</web>
 					</processTypes>

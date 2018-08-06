@@ -9,6 +9,7 @@ public class PreferencesChannel
 	private String	name = "";
 	private String	logo = "";
 	private String	group = "";
+	private String	regex = "";
 	private int	id = 0;
 	private boolean disable = false;
 
@@ -16,7 +17,7 @@ public class PreferencesChannel
 	 * Getter for name <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @return the name {@link String}
 	 */
 	public String getName()
@@ -28,7 +29,7 @@ public class PreferencesChannel
 	 * Setter for name <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @param name the name to set
 	 */
 	public void setName( String name )
@@ -40,7 +41,7 @@ public class PreferencesChannel
 	 * Getter for logo <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @return the logo {@link String}
 	 */
 	public String getLogo()
@@ -52,7 +53,7 @@ public class PreferencesChannel
 	 * Setter for logo <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @param logo the logo to set
 	 */
 	public void setLogo( String logo )
@@ -64,7 +65,7 @@ public class PreferencesChannel
 	 * Getter for group <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @return the group {@link String}
 	 */
 	public String getGroup()
@@ -76,7 +77,7 @@ public class PreferencesChannel
 	 * Setter for group <br>
 	 * <br>
 	 * <b>author</b> anco62000465 2017-09-29
-	 * 
+	 *
 	 * @param group the group to set
 	 */
 	public void setGroup( String group )
@@ -122,5 +123,19 @@ public class PreferencesChannel
 	public void setId( int id )
 	{
 		this.id = id;
+	}
+
+	/**
+	 * @return the regex
+	 */
+	public String getRegex() {
+		return regex;
+	}
+
+	/**
+	 * @param regex the regex to set
+	 */
+	public void setRegex(String regex) {
+		this.regex = regex;
 	}
 }
