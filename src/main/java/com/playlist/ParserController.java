@@ -10,6 +10,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,11 +21,13 @@ import java.util.stream.Stream;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -58,9 +61,10 @@ public class ParserController {
 		return version;
 	}
 
-	@RequestMapping(value = "/conrado", method = RequestMethod.GET)
-	public void conrado(HttpServletResponse response) {
-		parser(response, "AndreConrado", "F8MYMoq33L", "playlist.m3u8");
+	@RequestMapping(value = "/username/{userId}/password/{pass}/output/{out}", method = RequestMethod.GET)
+	public void process(HttpServletResponse response, @PathVariable String userId, @PathVariable String pass,
+			@PathVariable String out) {
+		parser(response, userId, pass, "playlist."+out);
 	}
 
 	/**
@@ -129,6 +133,14 @@ public class ParserController {
 			File newPlaylistFile = new File(output);
 			newPlaylistFile.delete();
 			newPlaylistFile.createNewFile();
+			m3uList.sort(new Comparator<M3UChannel>() {
+
+				@Override
+				public int compare(M3UChannel o1, M3UChannel o2) {
+
+					return StringUtils.compare(o1.getName(), o2.getName());
+				}
+			});
 			if (output.endsWith(".m3u")) {
 				PrintWriter printWriter = new PrintWriter(newPlaylistFile);
 				printWriter.println("#EXTM3U");
