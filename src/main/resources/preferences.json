@@ -19,7 +19,7 @@
 		},
 		"SPORT.TV": {
 			"logo": "lll",
-			"group": "Desporto - SportTV"
+			"group": "Desporto_SportTV"
 		},
 		"SPORTING": {
 			"group": "Desporto"
@@ -32,19 +32,19 @@
 		},
 		"NFL": {
 			"logo": "lll",
-			"group": "Desporto - NFL"
+			"group": "Desporto_NFL"
 		},
 		"(USA) ESPN": {
 			"logo": "lll",
-			"group": "Desporto - NFL"
+			"group": "Desporto_NFL"
 		},
 		"(UK) Sky Sport 1": {
 			"logo": "lll",
-			"group": "Desporto - NFL"
+			"group": "Desporto_NFL"
 		},
 		"CBS Sports Network": {
 			"logo": "lll",
-			"group": "Desporto - NFL"
+			"group": "Desporto_NFL"
 		},
 		"NBA": {
 			"logo": "lll",
@@ -52,7 +52,7 @@
 		},
 		"Eleven": {
 			"logo": "lll",
-			"group": "Desporto - Eleven Sports"
+			"group": "Desporto_ElevenSports"
 		},
 		"(DE)": {
 			"group": "Alemanha"
