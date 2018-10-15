@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/iptv-playlist-parser.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/playlistParser.jar
