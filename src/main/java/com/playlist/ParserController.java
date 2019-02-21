@@ -74,6 +74,12 @@ public class ParserController
 		parser( response, userId, pass, "playlist." + out );
 	}
 
+	@RequestMapping( value = "/series/username/{userId}/password/{pass}/output/{out}", method = RequestMethod.GET )
+	public void processSeries( HttpServletResponse response, @PathVariable String userId, @PathVariable String pass, @PathVariable String out )
+	{
+		seriesParser( response, userId, pass, "playlist." + out, false );
+	}
+
 	/**
 	 *
 	 * The <b>parser</b> method returns {@link ResponseEntity<InputStreamResource>} <br>
