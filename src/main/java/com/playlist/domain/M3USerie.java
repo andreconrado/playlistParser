@@ -123,7 +123,12 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 		{
 			return getEpisodio().compareTo( o.getEpisodio() );
 		}
-		return getSeason().compareTo( o.getSeason() );
+		int compareTo = getSeason().compareTo( o.getSeason() );
+		if ( compareTo == 0 )
+		{
+			return 1;
+		}
+		return compareTo;
 	}
 
 	/* (non-Javadoc)
