@@ -13,7 +13,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/**
 	 * Getter for serieName
-	 * 
+	 *
 	 * @author 62000465 2019-02-21
 	 * @return the serieName {@link String}
 	 */
@@ -24,7 +24,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/**
 	 * Setter for serieName
-	 * 
+	 *
 	 * @author 62000465 2019-02-21
 	 * @param serieName the serieName to set
 	 */
@@ -35,7 +35,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/**
 	 * Getter for season
-	 * 
+	 *
 	 * @author 62000465 2019-02-21
 	 * @return the season {@link Integer}
 	 */
@@ -46,7 +46,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/**
 	 * Setter for season
-	 * 
+	 *
 	 * @author 62000465 2019-02-21
 	 * @param season the season to set
 	 */
@@ -57,7 +57,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/**
 	 * Getter for episodio
-	 * 
+	 *
 	 * @author 62000465 2019-02-21
 	 * @return the episodio {@link Integer}
 	 */
@@ -68,7 +68,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/**
 	 * Setter for episodio
-	 * 
+	 *
 	 * @author 62000465 2019-02-21
 	 * @param episodio the episodio to set
 	 */
@@ -79,7 +79,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/**
 	 * Getter for nomeEpisodio
-	 * 
+	 *
 	 * @author 62000465 2019-02-21
 	 * @return the nomeEpisodio {@link Integer}
 	 */
@@ -90,7 +90,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/**
 	 * Setter for nomeEpisodio
-	 * 
+	 *
 	 * @author 62000465 2019-02-21
 	 * @param nomeEpisodio the nomeEpisodio to set
 	 */
@@ -99,21 +99,21 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 		strNomeEpisodio = nomeEpisodio;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
+
+
+	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString()
 	{
 		return "M3USerie [strSerieName=" + strSerieName + ", iSeason=" + iSeason + ", iEpisodio=" + iEpisodio + ", strNomeEpisodio=" +
-			strNomeEpisodio + "]";
+						strNomeEpisodio + ", getUrl()=" + getUrl() + "]";
 	}
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Comparable#compareTo(java.lang.Object)
 	 */
 	@Override
@@ -133,7 +133,7 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
@@ -141,16 +141,16 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 	{
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ( ( iEpisodio == null ) ? 0 : iEpisodio.hashCode() );
-		result = prime * result + ( ( iSeason == null ) ? 0 : iSeason.hashCode() );
-		result = prime * result + ( ( strNomeEpisodio == null ) ? 0 : strNomeEpisodio.hashCode() );
-		result = prime * result + ( ( strSerieName == null ) ? 0 : strSerieName.hashCode() );
+		result = ( prime * result ) + ( ( iEpisodio == null ) ? 0 : iEpisodio.hashCode() );
+		result = ( prime * result ) + ( ( iSeason == null ) ? 0 : iSeason.hashCode() );
+		result = ( prime * result ) + ( ( strNomeEpisodio == null ) ? 0 : strNomeEpisodio.hashCode() );
+		result = ( prime * result ) + ( ( strSerieName == null ) ? 0 : strSerieName.hashCode() );
 		return result;
 	}
 
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
