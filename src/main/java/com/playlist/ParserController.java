@@ -10,7 +10,6 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -413,7 +412,7 @@ public class ParserController
 			PrintWriter printWriter = new PrintWriter( newPlaylistFile );
 			printWriter.println( "#EXTM3U" );
 			int id = 1;
-			Collections.sort( m3uList );
+
 			for ( M3UChannel m3uChannel : m3uList )
 			{
 				StringBuilder sb = new StringBuilder();
