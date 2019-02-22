@@ -10,6 +10,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -334,7 +335,7 @@ public class ParserController
 						BufferedReader reader = new BufferedReader( new InputStreamReader( is ) );
 						Stream< String > stream = reader.lines() )
 				{
-					stream.forEach( p -> lines.add( p ) );
+					stream.forEach( p -> lines.add( StringUtils.trimToEmpty( p ) ) );
 				}
 			}
 			else
@@ -379,7 +380,12 @@ public class ParserController
 				String line = iterator.next();
 				if ( line.startsWith( "#EXTINF:" ) )
 				{
-					Pattern p = Pattern.compile( "(.*?)[.\\s][sS](\\d{2}) [eE](\\d{2}).*" );
+					String strRegex = System.getenv( "seriesRegex" );
+					if ( StringUtils.isBlank( strRegex ) )
+					{
+						strRegex = "(.*?)[.\\s][sS](\\d{2}) [eE](\\d{2}).*";
+					}
+					Pattern p = Pattern.compile( strRegex );
 					line = line.replace( "#EXTINF:-1,", "" );
 					Matcher m = p.matcher( line );
 					if ( m.matches() )
@@ -389,7 +395,7 @@ public class ParserController
 						M3USerie m3uChannel = new M3USerie();
 						m3uChannel.setEpisodio( iEpisodio );
 						m3uChannel.setSeason( iSeason );
-						m3uChannel.setSerieName( m.group( 1 ) );
+						m3uChannel.setSerieName( StringUtils.trimToEmpty( m.group( 1 ) ) );
 						String channelUrl = iterator.next();
 						m3uChannel.setName( "[Season " + m3uChannel.getSeason() + "] Ep - " + m3uChannel.getEpisodio() );
 						m3uChannel.setNomeEpisodio( m3uChannel.getName() );
@@ -412,7 +418,7 @@ public class ParserController
 			PrintWriter printWriter = new PrintWriter( newPlaylistFile );
 			printWriter.println( "#EXTM3U" );
 			int id = 1;
-
+			Collections.sort( m3uList );
 			for ( M3UChannel m3uChannel : m3uList )
 			{
 				StringBuilder sb = new StringBuilder();

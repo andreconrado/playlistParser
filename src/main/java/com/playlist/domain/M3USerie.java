@@ -119,19 +119,21 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 	@Override
 	public int compareTo( M3USerie o )
 	{
-		if ( getSeason() != o.getSeason() )
-		{
-			return getEpisodio().compareTo( o.getEpisodio() );
-		}
-		int compareTo = getSeason().compareTo( o.getSeason() );
+		int compareTo = getSerieName().compareTo( o.getSerieName() );
 		if ( compareTo == 0 )
 		{
-			return 1;
+			compareTo = getSeason().compareTo( o.getSeason() );
+			if ( compareTo == 0 )
+			{
+				return getEpisodio().compareTo( o.getEpisodio() );
+			}
 		}
 		return compareTo;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
@@ -146,7 +148,9 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 		return result;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override
@@ -211,6 +215,4 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 		}
 		return true;
 	}
-	
-	
 }
