@@ -356,6 +356,7 @@ public class ParserController {
 						if (tvShow == null) {
 							// https://www.episodate.com/api/show-details?q=
 							String strAuxSerieName = m3uChannel.getSerieName().replaceAll(" ", "-");
+							strAuxSerieName = m3uChannel.getSerieName().replaceAll(".", "");
 							String strEpisodate = System.getenv("episodate");
 							if (StringUtils.isBlank(strEpisodate)) {
 								strEpisodate = "https://www.episodate.com/api/show-details?q=%s";
