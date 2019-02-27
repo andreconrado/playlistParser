@@ -356,13 +356,15 @@ public class ParserController {
 						if (tvShow == null) {
 							// https://www.episodate.com/api/show-details?q=
 							String strAuxSerieName = m3uChannel.getSerieName().replaceAll(" ", "-");
-							strAuxSerieName = m3uChannel.getSerieName().replaceAll(".", "");
+							strAuxSerieName = strAuxSerieName.replace(".", "");
+							strAuxSerieName = strAuxSerieName.replace(":", "");
 							String strEpisodate = System.getenv("episodate");
 							if (StringUtils.isBlank(strEpisodate)) {
 								strEpisodate = "https://www.episodate.com/api/show-details?q=%s";
 							}
 							URL url = new URL(String.format(strEpisodate, strAuxSerieName.toLowerCase()));
 							try {
+								System.out.println("Procurar serie " + m3uChannel.getSerieName() + " :: " + url);
 								ObjectMapper objectMapper = new ObjectMapper();
 								TvShow tvShowAux = objectMapper.readValue(url, TvShow.class);
 								tvShow = tvShowAux.getTvShow();
@@ -421,7 +423,7 @@ public class ParserController {
 				// Name
 				sb.append(m3uChannel.getName());
 				printWriter.println(sb.toString());
-				System.out.println(sb.toString());
+
 				sb = new StringBuilder();
 				// Group
 				sb.append("#EXTGRP:");
