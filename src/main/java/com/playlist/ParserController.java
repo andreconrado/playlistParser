@@ -118,25 +118,35 @@ public class ParserController
 			List< M3UChannel > m3uList = new ArrayList<>();
 			String groupName = "Sem grupo";
 			int idCount = 1;
+			String strRegex = System.getenv( "seriesRegex" );
+			if ( StringUtils.isBlank( strRegex ) )
+			{
+				strRegex = "(.*?)[.\\s][sS](\\d{2}) [eE](\\d{2}).*";
+			}
+			Pattern p = Pattern.compile( strRegex );
 			for ( Iterator< String > iterator = lines.iterator(); iterator.hasNext(); )
 			{
 				String line = iterator.next();
 				if ( line.startsWith( "#EXTINF:" ) )
 				{
-					if ( line.contains( "►" ) )
+					Matcher m = p.matcher( StringUtils.substringBetween( line, "tvg-name=\"", "\"" ).trim() );
+					if ( !m.matches() )
 					{
-						groupName = StringUtils.substringBetween( line, "\"►►►", "◄◄◄\"" ).trim();
-					}
-					else
-					{
-						M3UChannel m3uChannel = new M3UChannel();
-						String strChannelName = StringUtils.substringBetween( line, "tvg-name=\"", "\"" ).trim();
-						String channelUrl = iterator.next();
-						m3uChannel.setName( strChannelName );
-						m3uChannel.setUrl( channelUrl );
-						m3uChannel.setGroupName( groupName );
-						m3uChannel.setId( idCount++ );
-						m3uList.add( m3uChannel );
+						if ( line.contains( "►" ) )
+						{
+							groupName = StringUtils.substringBetween( line, "\"►►►", "◄◄◄\"" ).trim();
+						}
+						else
+						{
+							M3UChannel m3uChannel = new M3UChannel();
+							String strChannelName = StringUtils.substringBetween( line, "tvg-name=\"", "\"" ).trim();
+							String channelUrl = iterator.next();
+							m3uChannel.setName( strChannelName );
+							m3uChannel.setUrl( channelUrl );
+							m3uChannel.setGroupName( groupName );
+							m3uChannel.setId( idCount++ );
+							m3uList.add( m3uChannel );
+						}
 					}
 				}
 			}
