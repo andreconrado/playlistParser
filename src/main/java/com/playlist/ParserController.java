@@ -39,6 +39,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.DatabaseReference.CompletionListener;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.playlist.domain.Episode;
 import com.playlist.domain.M3UChannel;
 import com.playlist.domain.M3USerie;
@@ -57,6 +63,27 @@ public class ParserController {
 	private Resource propertiesFile;
 	@Value("classpath:tv_channels_AndreConrado.m3u")
 	private Resource channelFile;
+
+	private static DatabaseReference database;
+
+	public ParserController() {
+		super();
+		database = FirebaseDatabase.getInstance().getReference();
+
+		database.addListenerForSingleValueEvent(new ValueEventListener() {
+
+			@Override
+			public void onDataChange(DataSnapshot snapshot) {
+				System.out.println(snapshot.toString());
+			}
+
+			@Override
+			public void onCancelled(DatabaseError error) {
+				// TODO Auto-generated method stub
+
+			}
+		});
+	}
 
 	private Map<String, TvShow_> mapTvShows = new HashMap<>();
 
@@ -331,6 +358,7 @@ public class ParserController {
 					return;
 				}
 			}
+			database.child("logs").setValueAsync("Lidos " + lines.size());
 			// read file into stream, try-with-resources
 			List<M3USerie> m3uList = new ArrayList<>();
 			int idCount = 1;
@@ -368,6 +396,15 @@ public class ParserController {
 								ObjectMapper objectMapper = new ObjectMapper();
 								TvShow tvShowAux = objectMapper.readValue(url, TvShow.class);
 								tvShow = tvShowAux.getTvShow();
+
+								database.child("series").child(m3uChannel.getSerieName()).setValue(tvShow,
+										new CompletionListener() {
+
+											@Override
+											public void onComplete(DatabaseError error, DatabaseReference ref) {
+												System.out.println("Complete :: " + ref.getKey());
+											}
+										});
 							} catch (Exception e) {
 								System.err.println("Erro com " + m3uChannel.getSerieName() + " :: " + e.getMessage());
 							}
