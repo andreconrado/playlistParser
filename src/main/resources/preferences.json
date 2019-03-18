@@ -44,32 +44,32 @@
 			"group": "Desporto ElevenSports",
 			"regex": "^ELEVEN SPORTS "
 		},
-		"DE ": {
+		"Alemanha": {
 			"group": "Alemanha",
 			"regex": "^(DE: |DE :)"
 		},
-		"ESP ": {
+		"Espanha": {
 			"group": "Espanha",
 			"regex": "^(ESP: |ESP :)"
 		},
-		"FR": {
+		"França": {
 			"group": "França",
 			"regex": "^(ESP: |ESP :)"
 		},
-		"UK": {
+		"Inglaterra": {
 			"group": "Inglaterra",
 			"regex": "^(UK: |UK :)"
 		},
-		"IT": {
+		"Itália": {
 			"group": "Italia",
 			"regex": "^(IT: |IT :)"
 		},
-		"BR": {
+		"Brasil": {
 			"group": "Brasil",
 			"regex": "^(BR: |BR :)"
 		},
-		"USA": {
-			"group": "USA",
+		"Estados Unidos": {
+			"group": "Estados Unidos",
 			"regex": "^(USA: |USA :)"
 		},
 		"Polónia": {
