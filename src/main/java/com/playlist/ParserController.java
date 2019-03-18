@@ -93,7 +93,7 @@ public class ParserController
 	@RequestMapping( value = "/movies/username/{userId}/password/{pass}/output/{out}", method = RequestMethod.GET )
 	public void processMovies( HttpServletResponse response, @PathVariable String userId, @PathVariable String pass, @PathVariable String out )
 	{
-		seriesParser( response, userId, pass, "playlist." + out, false );
+		moviesParser( response, userId, pass, "playlist." + out, false );
 	}
 
 	/**
