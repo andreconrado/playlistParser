@@ -1,7 +1,6 @@
 package com.playlist;
 
 import java.io.ByteArrayInputStream;
-import java.io.IOException;
 
 import javax.annotation.PostConstruct;
 
@@ -44,7 +43,7 @@ public class FirebaseConfig {
 				System.err.println(e.getMessage());
 				FirebaseApp.initializeApp(options);
 			}
-		} catch (IOException e) {
+		} catch (Exception e) {
 			System.err.println(e.getMessage());
 		}
 
