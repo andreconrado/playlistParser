@@ -51,6 +51,23 @@ public class Tester
 	}
 
 	@Test
+	public void testMovieXML()
+	{
+		try
+		{
+			MvcResult andReturn = mockMvc
+							.perform( MockMvcRequestBuilders
+											.get( "/moviesParser?username=AndreConrado&password=teste&output=newPlaylist.xml&debug=true" ) )
+							.andReturn();
+			System.out.println( andReturn.getResponse().getStatus() );
+		}
+		catch ( Exception e )
+		{
+			e.printStackTrace();
+		}
+	}
+
+	@Test
 	public void testSeries()
 	{
 		try
@@ -58,6 +75,23 @@ public class Tester
 			MvcResult andReturn = mockMvc
 							.perform( MockMvcRequestBuilders
 											.get( "/seriesParser?username=AndreConrado&password=teste&output=newPlaylist.m3u&debug=true" ) )
+							.andReturn();
+			System.out.println( andReturn.getResponse().getStatus() );
+		}
+		catch ( Exception e )
+		{
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	public void testSeriesXML()
+	{
+		try
+		{
+			MvcResult andReturn = mockMvc
+							.perform( MockMvcRequestBuilders
+											.get( "/seriesParser?username=AndreConrado&password=teste&output=newPlaylist.xml&debug=true" ) )
 							.andReturn();
 			System.out.println( andReturn.getResponse().getStatus() );
 		}

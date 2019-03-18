@@ -16,6 +16,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.Properties;
 import java.util.regex.Matcher;
@@ -37,7 +38,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.playlist.domain.Episode;
 import com.playlist.domain.M3UChannel;
 import com.playlist.domain.M3USerie;
@@ -45,6 +49,8 @@ import com.playlist.domain.Preferences;
 import com.playlist.domain.PreferencesChannel;
 import com.playlist.domain.TvShow;
 import com.playlist.domain.TvShow_;
+import com.playlist.domain.xml.Channel;
+import com.playlist.domain.xml.Items;
 
 @RestController
 public class ParserController
@@ -345,6 +351,7 @@ public class ParserController
 			// read file into stream, try-with-resources
 			List< M3USerie > m3uList = new ArrayList<>();
 			int idCount = 1;
+
 			for ( Iterator< String > iterator = lines.iterator(); iterator.hasNext(); )
 			{
 				String line = iterator.next();
@@ -394,7 +401,7 @@ public class ParserController
 						if ( tvShow == null )
 						{
 							mapTvShows.put( m3uChannel.getSerieName(), new TvShow_() );
-							m3uChannel.setName( "[Season " + m3uChannel.getSeason() + "] Ep - " + m3uChannel.getEpisodio() );
+							m3uChannel.setName( "Season " + m3uChannel.getSeason() + " :: Ep - " + m3uChannel.getEpisodio() );
 						}
 						else
 						{
@@ -406,6 +413,8 @@ public class ParserController
 							{
 								m3uChannel.setName( "[" + m3uChannel.getSeason() + "x" + m3uChannel.getEpisodio() + "] - " +
 									findFirst.get().getName() );
+								m3uChannel.setImage( Objects.toString(	findFirst.get().getAdditionalProperties().get( "image_thumbnail_path" ),
+																		"" ) );
 							}
 							else
 							{
@@ -421,6 +430,7 @@ public class ParserController
 					}
 				}
 			}
+
 			File newPlaylistFile = new File( output );
 			newPlaylistFile.delete();
 			newPlaylistFile.createNewFile();
@@ -430,26 +440,10 @@ public class ParserController
 			// http://megaiptv.dynu.com:6969/live/AndreConrado/F8MYMoq33L/81.ts
 			PrintWriter printWriter = new PrintWriter( newPlaylistFile );
 			printWriter.println( "#EXTM3U" );
-			int id = 1;
+
 			Collections.sort( m3uList );
-			for ( M3UChannel m3uChannel : m3uList )
-			{
-				StringBuilder sb = new StringBuilder();
-				// id
-				sb.append( "#EXTINF:" );
-				sb.append( id++ );
-				sb.append( ", " );
-				// Name
-				sb.append( m3uChannel.getName() );
-				printWriter.println( sb.toString() );
-				sb = new StringBuilder();
-				// Group
-				sb.append( "#EXTGRP:" );
-				sb.append( m3uChannel.getGroupName() );
-				printWriter.println( sb.toString() );
-				printWriter.println( m3uChannel.getUrl() );
-			}
 			
+			createOuputFile( output, m3uList, printWriter );
 			logger.info( "Output :: Series processed - " + m3uList.size() );
 			
 			printWriter.flush();
@@ -513,7 +507,7 @@ public class ParserController
 		{
 			final List< String > lines = readFile( isDebug, username, password );
 			// read file into stream, try-with-resources
-			List< M3UChannel > m3uList = new ArrayList<>();
+			List< M3USerie > m3uList = new ArrayList<>();
 			int idCount = 1;
 			String strMoviesTvgName = System.getenv( "movies-tvg-name" );
 			if ( StringUtils.isBlank( strMoviesTvgName ) )
@@ -529,7 +523,7 @@ public class ParserController
 					String strMoviesRegex = System.getenv( "moviesRegex" );
 					if ( StringUtils.isBlank( strMoviesRegex ) )
 					{
-						strMoviesRegex = "tvg-name=\"(.+?)\".*group-title=\"(.+?)\"";
+						strMoviesRegex = "tvg-name=\"(.+?)\".*tvg-logo=\"(.+?)\".*group-title=\"(.+?)\"";
 					}
 					Pattern p = Pattern.compile( strMoviesRegex );
 					while ( iterator.hasNext() )
@@ -543,9 +537,11 @@ public class ParserController
 						if ( m.find() && m.groupCount() > 1 )
 						{
 							String movieName = m.group( 1 );
-							String movieGroupName = m.group( 2 );
-							M3UChannel m3uChannel = new M3UChannel();
+							String movieImage = m.group( 2 );
+							String movieGroupName = m.group( 3 );
+							M3USerie m3uChannel = new M3USerie();
 							m3uChannel.setName( movieName );
+							m3uChannel.setImage( movieImage );
 							String channelUrl = iterator.next();
 							m3uChannel.setUrl( channelUrl );
 							m3uChannel.setGroupName( StringUtils.capitalize( movieGroupName.toLowerCase() ) );
@@ -566,7 +562,6 @@ public class ParserController
 			// http://megaiptv.dynu.com:6969/live/AndreConrado/F8MYMoq33L/81.ts
 			PrintWriter printWriter = new PrintWriter( newPlaylistFile );
 			printWriter.println( "#EXTM3U" );
-			int id = 1;
 			Collections.sort( m3uList, new Comparator< M3UChannel >()
 			{
 				@Override
@@ -575,23 +570,8 @@ public class ParserController
 					return ObjectUtils.compare( o1.getName(), o2.getName() );
 				}
 			} );
-			for ( M3UChannel m3uChannel : m3uList )
-			{
-				StringBuilder sb = new StringBuilder();
-				// id
-				sb.append( "#EXTINF:" );
-				sb.append( id++ );
-				sb.append( ", " );
-				// Name
-				sb.append( m3uChannel.getName() );
-				printWriter.println( sb.toString() );
-				sb = new StringBuilder();
-				// Group
-				sb.append( "#EXTGRP:" );
-				sb.append( m3uChannel.getGroupName() );
-				printWriter.println( sb.toString() );
-				printWriter.println( m3uChannel.getUrl() );
-			}
+			createOuputFile( output, m3uList, printWriter );
+
 			logger.info( "Output :: Movies processed - " + m3uList.size() );
 			printWriter.flush();
 			printWriter.close();
@@ -624,6 +604,60 @@ public class ParserController
 			catch ( IOException e1 )
 			{
 				logger.error( e1.getMessage() );
+			}
+		}
+	}
+
+	/**
+	 * The <b>createOuputFile</b> method returns {@link void}
+	 * 
+	 * @author 62000465 2019-03-18
+	 * @param output
+	 * @param m3uList
+	 * @param printWriter
+	 * @param id
+	 * @throws IOException
+	 * @throws JsonGenerationException
+	 * @throws JsonMappingException
+	 */
+	private void createOuputFile( String output, List< M3USerie > m3uList, PrintWriter printWriter )
+		throws IOException, JsonGenerationException, JsonMappingException
+	{
+		int id = 1;
+		if ( output.endsWith( "xml" ) )
+		{
+			Items items = new Items();
+			for ( M3UChannel m3uChannel : m3uList )
+			{
+				Channel channel = new Channel();
+				channel.setTitle( m3uChannel.getName() );
+				channel.setDescription( m3uChannel.getImage() );
+				channel.setStream_url( m3uChannel.getUrl() );
+				channel.setGroup( m3uChannel.getGroupName() );
+				items.getChannel().add( channel );
+			}
+			XmlMapper xmlMapper = new XmlMapper();
+			xmlMapper.writeValue( printWriter, items );
+			System.out.println( xmlMapper.writeValueAsString( items ) );
+		}
+		else
+		{
+			for ( M3UChannel m3uChannel : m3uList )
+			{
+				StringBuilder sb = new StringBuilder();
+				// id
+				sb.append( "#EXTINF:" );
+				sb.append( id++ );
+				sb.append( ", " );
+				// Name
+				sb.append( m3uChannel.getName() );
+				printWriter.println( sb.toString() );
+				sb = new StringBuilder();
+				// Group
+				sb.append( "#EXTGRP:" );
+				sb.append( m3uChannel.getGroupName() );
+				printWriter.println( sb.toString() );
+				printWriter.println( m3uChannel.getUrl() );
 			}
 		}
 	}
