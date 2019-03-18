@@ -99,8 +99,6 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 		strNomeEpisodio = nomeEpisodio;
 	}
 
-
-
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
@@ -108,7 +106,8 @@ public class M3USerie extends M3UChannel implements Comparable< M3USerie >
 	public String toString()
 	{
 		return "M3USerie [strSerieName=" + strSerieName + ", iSeason=" + iSeason + ", iEpisodio=" + iEpisodio + ", strNomeEpisodio=" +
-						strNomeEpisodio + ", getUrl()=" + getUrl() + "]";
+			strNomeEpisodio + ", getUrl()=" + getUrl() + ", getName()=" + getName() + ", getGroupName()=" + getGroupName() + ", getId()=" + getId() +
+			"]";
 	}
 
 	/*

@@ -108,4 +108,25 @@ public class M3UChannel
 	{
 		this.id = id;
 	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString()
+	{
+		StringBuilder builder = new StringBuilder();
+		builder.append( "M3UChannel [url=" );
+		builder.append( url );
+		builder.append( ", id=" );
+		builder.append( id );
+		builder.append( ", name=" );
+		builder.append( name );
+		builder.append( ", groupName=" );
+		builder.append( groupName );
+		builder.append( "]" );
+		return builder.toString();
+	}
 }

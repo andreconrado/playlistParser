@@ -23,6 +23,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Stream;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -85,6 +86,12 @@ public class ParserController
 
 	@RequestMapping( value = "/series/username/{userId}/password/{pass}/output/{out}", method = RequestMethod.GET )
 	public void processSeries( HttpServletResponse response, @PathVariable String userId, @PathVariable String pass, @PathVariable String out )
+	{
+		seriesParser( response, userId, pass, "playlist." + out, false );
+	}
+
+	@RequestMapping( value = "/movies/username/{userId}/password/{pass}/output/{out}", method = RequestMethod.GET )
+	public void processMovies( HttpServletResponse response, @PathVariable String userId, @PathVariable String pass, @PathVariable String out )
 	{
 		seriesParser( response, userId, pass, "playlist." + out, false );
 	}
@@ -360,7 +367,7 @@ public class ParserController
 						m3uChannel.setSeason( iSeason );
 						m3uChannel.setSerieName( StringUtils.trimToEmpty( m.group( 1 ) ) );
 						TvShow_ tvShow = mapTvShows.get( m3uChannel.getSerieName() );
-						if ( tvShow == null )
+						if ( tvShow == null && !isDebug )
 						{
 							// https://www.episodate.com/api/show-details?q=
 							String strAuxSerieName = m3uChannel.getSerieName().replaceAll( " ", "-" );
@@ -441,8 +448,151 @@ public class ParserController
 				sb.append( m3uChannel.getGroupName() );
 				printWriter.println( sb.toString() );
 				printWriter.println( m3uChannel.getUrl() );
-				logger.debug( "Output :: " + m3uChannel );
 			}
+			
+			logger.info( "Output :: Series processed - " + m3uList.size() );
+			
+			printWriter.flush();
+			printWriter.close();
+			/***
+			 *
+			 */
+			/***
+			 *
+			 */
+			// InputStreamResource resource = new InputStreamResource( new FileInputStream(
+			// newPlaylistFile ) );
+			response.addHeader( HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" + output );
+			response.setContentType( MediaType.APPLICATION_XML_VALUE );
+			OutputStream out = response.getOutputStream();
+			FileInputStream in = new FileInputStream( newPlaylistFile );
+			// copy from in to out
+			IOUtils.copy( in, out );
+			out.close();
+			in.close();
+			System.out.println( "Enviado ficheiro com " + newPlaylistFile.length() + " bytes" );
+			newPlaylistFile.delete();
+		}
+		catch ( Exception e )
+		{
+			logger.error( e.getMessage() );
+			try
+			{
+				response.sendError( HttpStatus.INTERNAL_SERVER_ERROR.ordinal() );
+			}
+			catch ( IOException e1 )
+			{
+				logger.error( e1.getMessage() );
+			}
+		}
+	}
+
+	/**
+	 *
+	 * The <b>moviesParser</b> method returns {@link ResponseEntity<InputStreamResource>} <br>
+	 * <br>
+	 * <b>author</b> anco62000465 2017-12-29
+	 *
+	 * <br>
+	 * url example: /moviesParser?username=AndreConrado&password=teste&output=newPlaylist.m3u Heroku example:
+	 * https://iptv-playlist-parser.herokuapp.com/moviesParser?username=name&password=pass&output=playlist.m3u8
+	 *
+	 * @param username
+	 * @param password
+	 * @param output
+	 * @return
+	 */
+	@RequestMapping( value = "/moviesParser", method = RequestMethod.GET )
+	public void moviesParser(	HttpServletResponse response,
+								@RequestParam( value = "username", required = true ) String username,
+								@RequestParam( value = "password", required = true ) String password,
+								@RequestParam( value = "output", required = false, defaultValue = "playlist.m3u8" ) String output,
+								@RequestParam( value = "debug", required = false, defaultValue = "false" ) Boolean isDebug )
+	{
+		try
+		{
+			final List< String > lines = readFile( isDebug, username, password );
+			// read file into stream, try-with-resources
+			List< M3UChannel > m3uList = new ArrayList<>();
+			int idCount = 1;
+			String strMoviesTvgName = System.getenv( "movies-tvg-name" );
+			if ( StringUtils.isBlank( strMoviesTvgName ) )
+			{
+				strMoviesTvgName = "►►►►►►   VOD Video Clube   ◄◄◄◄◄◄";
+			}
+			for ( Iterator< String > iterator = lines.iterator(); iterator.hasNext(); )
+			{
+				String line = iterator.next();
+				if ( line.contains( strMoviesTvgName ) )
+				{
+					line = iterator.next();
+					String strMoviesRegex = System.getenv( "moviesRegex" );
+					if ( StringUtils.isBlank( strMoviesRegex ) )
+					{
+						strMoviesRegex = "tvg-name=\"(.+?)\".*group-title=\"(.+?)\"";
+					}
+					Pattern p = Pattern.compile( strMoviesRegex );
+					while ( iterator.hasNext() )
+					{
+						if ( line.contains( "►►►" ) )
+						{
+							break;
+						}
+
+						Matcher m = p.matcher( line );
+						if ( m.find() && m.groupCount() > 1 )
+						{
+							String movieName = m.group( 1 );
+							String movieGroupName = m.group( 2 );
+							M3UChannel m3uChannel = new M3UChannel();
+							m3uChannel.setName( movieName );
+							String channelUrl = iterator.next();
+							m3uChannel.setUrl( channelUrl );
+							m3uChannel.setGroupName( StringUtils.capitalize( movieGroupName.toLowerCase() ) );
+							m3uChannel.setId( idCount++ );
+							m3uList.add( m3uChannel );
+							
+						}
+						line = iterator.next();
+					}
+				}
+			}
+			File newPlaylistFile = new File( output );
+			newPlaylistFile.delete();
+			newPlaylistFile.createNewFile();
+			// #EXTM3U
+			// #EXTINF:0,RTP MADEIRA
+			// #EXTGRP:groupTest
+			// http://megaiptv.dynu.com:6969/live/AndreConrado/F8MYMoq33L/81.ts
+			PrintWriter printWriter = new PrintWriter( newPlaylistFile );
+			printWriter.println( "#EXTM3U" );
+			int id = 1;
+			Collections.sort( m3uList, new Comparator< M3UChannel >()
+			{
+				@Override
+				public int compare( M3UChannel o1, M3UChannel o2 )
+				{
+					return ObjectUtils.compare( o1.getName(), o2.getName() );
+				}
+			} );
+			for ( M3UChannel m3uChannel : m3uList )
+			{
+				StringBuilder sb = new StringBuilder();
+				// id
+				sb.append( "#EXTINF:" );
+				sb.append( id++ );
+				sb.append( ", " );
+				// Name
+				sb.append( m3uChannel.getName() );
+				printWriter.println( sb.toString() );
+				sb = new StringBuilder();
+				// Group
+				sb.append( "#EXTGRP:" );
+				sb.append( m3uChannel.getGroupName() );
+				printWriter.println( sb.toString() );
+				printWriter.println( m3uChannel.getUrl() );
+			}
+			logger.info( "Output :: Movies processed - " + m3uList.size() );
 			printWriter.flush();
 			printWriter.close();
 			/***

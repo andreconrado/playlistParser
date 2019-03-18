@@ -34,11 +34,13 @@ public class Tester
 	}
 
 	@Test
-	public void test()
+	public void testMovie()
 	{
 		try
 		{
-			MvcResult andReturn = mockMvc.perform( MockMvcRequestBuilders.get( "/username/AndreConrado/password/W27eDSze3d/output/playlist.m3u8" ) )
+			MvcResult andReturn = mockMvc
+							.perform( MockMvcRequestBuilders
+											.get( "/moviesParser?username=AndreConrado&password=teste&output=newPlaylist.m3u&debug=true" ) )
 							.andReturn();
 			System.out.println( andReturn.getResponse().getStatus() );
 		}
@@ -53,8 +55,9 @@ public class Tester
 	{
 		try
 		{
-			MvcResult andReturn =
-							mockMvc.perform( MockMvcRequestBuilders.get( "/series/username/AndreConrado/password/W27eDSze3d/output/playlist.m3u8" ) )
+			MvcResult andReturn = mockMvc
+							.perform( MockMvcRequestBuilders
+											.get( "/seriesParser?username=AndreConrado&password=teste&output=newPlaylist.m3u&debug=true" ) )
 							.andReturn();
 			System.out.println( andReturn.getResponse().getStatus() );
 		}
