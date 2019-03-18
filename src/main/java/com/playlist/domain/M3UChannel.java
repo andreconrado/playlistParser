@@ -1,5 +1,8 @@
 package com.playlist.domain;
 
+import org.apache.commons.lang3.StringUtils;
+import j2html.TagCreator;
+
 /**
  * @author anco62000465 2017-09-27
  *
@@ -12,6 +15,7 @@ public class M3UChannel
 	private int		id	= 0;
 	private String	name;
 	private String	groupName;
+	private String	image;
 
 	/**
 	 * Getter for url <br>
@@ -46,7 +50,14 @@ public class M3UChannel
 	 */
 	public String getName()
 	{
-		return name;
+		if ( StringUtils.isNotBlank( image ) )
+		{
+			return TagCreator.img().attr( "src", image ).render() + name;
+		}
+		else
+		{
+			return name;
+		}
 	}
 
 	/**
@@ -108,4 +119,57 @@ public class M3UChannel
 	{
 		this.id = id;
 	}
+
+	/**
+	 * Getter for image
+	 * 
+	 * @author 62000465 2019-03-18
+	 * @return the image {@link String}
+	 */
+	public String getImage()
+	{
+		if ( StringUtils.isNotBlank( image ) )
+		{
+			return TagCreator.img().attr( "src", image ).render() + name;
+		}
+		else
+		{
+			return "";
+		}
+	}
+
+	/**
+	 * Setter for image
+	 * 
+	 * @author 62000465 2019-03-18
+	 * @param image the image to set
+	 */
+	public void setImage( String image )
+	{
+		this.image = image;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString()
+	{
+		StringBuilder builder = new StringBuilder();
+		builder.append( "M3UChannel [url=" );
+		builder.append( url );
+		builder.append( ", id=" );
+		builder.append( id );
+		builder.append( ", name=" );
+		builder.append( name );
+		builder.append( ", groupName=" );
+		builder.append( groupName );
+		builder.append( ", image=" );
+		builder.append( image );
+		builder.append( "]" );
+		return builder.toString();
+	}
+
 }

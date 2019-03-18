@@ -6,12 +6,12 @@ package com.playlist.domain;
  */
 public class PreferencesChannel
 {
-	private String	name = "";
-	private String	logo = "";
-	private String	group = "";
-	private String	regex = "";
-	private int	id = 0;
-	private boolean disable = false;
+	private String	name	= "";
+	private String	logo	= "";
+	private String	group	= "";
+	private String	regex	= "";
+	private int		id		= 0;
+	private boolean	disable	= false;
 
 	/**
 	 * Getter for name <br>
@@ -86,9 +86,11 @@ public class PreferencesChannel
 	}
 
 	/**
-	 * Getter for disable
-	 * <br><br><b>author</b> anco62000465 2017-09-29
-	 * @return the disable  {@link boolean}
+	 * Getter for disable <br>
+	 * <br>
+	 * <b>author</b> anco62000465 2017-09-29
+	 * 
+	 * @return the disable {@link boolean}
 	 */
 	public boolean isDisable()
 	{
@@ -96,8 +98,10 @@ public class PreferencesChannel
 	}
 
 	/**
-	 * Setter for disable
-	 * <br><br><b>author</b> anco62000465 2017-09-29
+	 * Setter for disable <br>
+	 * <br>
+	 * <b>author</b> anco62000465 2017-09-29
+	 * 
 	 * @param disable the disable to set
 	 */
 	public void setDisable( boolean disable )
@@ -106,9 +110,11 @@ public class PreferencesChannel
 	}
 
 	/**
-	 * Getter for id
-	 * <br><br><b>author</b> anco62000465 2017-09-29
-	 * @return the id  {@link int}
+	 * Getter for id <br>
+	 * <br>
+	 * <b>author</b> anco62000465 2017-09-29
+	 * 
+	 * @return the id {@link int}
 	 */
 	public int getId()
 	{
@@ -116,8 +122,10 @@ public class PreferencesChannel
 	}
 
 	/**
-	 * Setter for id
-	 * <br><br><b>author</b> anco62000465 2017-09-29
+	 * Setter for id <br>
+	 * <br>
+	 * <b>author</b> anco62000465 2017-09-29
+	 * 
 	 * @param id the id to set
 	 */
 	public void setId( int id )
@@ -128,14 +136,16 @@ public class PreferencesChannel
 	/**
 	 * @return the regex
 	 */
-	public String getRegex() {
+	public String getRegex()
+	{
 		return regex;
 	}
 
 	/**
 	 * @param regex the regex to set
 	 */
-	public void setRegex(String regex) {
+	public void setRegex( String regex )
+	{
 		this.regex = regex;
 	}
 }
