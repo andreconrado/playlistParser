@@ -1,21 +1,21 @@
 package com.playlist.domain;
 
 import org.apache.commons.lang3.StringUtils;
+
 import j2html.TagCreator;
 
 /**
  * @author anco62000465 2017-09-27
  *
  */
-public class M3UChannel
-{
+public class M3UChannel {
 	// #EXTINF:-1,RTP 1 HD
 	// http://megaiptv.dynu.com:6969/live/AndreConrado/F8MYMoq33L/2438.ts
-	private String	url;
-	private int		id	= 0;
-	private String	name;
-	private String	groupName;
-	private String	image;
+	private String url;
+	private int id = 0;
+	private String name;
+	private String groupName;
+	private String image;
 
 	/**
 	 * Getter for url <br>
@@ -24,8 +24,7 @@ public class M3UChannel
 	 * 
 	 * @return the url {@link String}
 	 */
-	public String getUrl()
-	{
+	public String getUrl() {
 		return url;
 	}
 
@@ -36,8 +35,7 @@ public class M3UChannel
 	 * 
 	 * @param url the url to set
 	 */
-	public void setUrl( String url )
-	{
+	public void setUrl(String url) {
 		this.url = url;
 	}
 
@@ -48,16 +46,15 @@ public class M3UChannel
 	 * 
 	 * @return the name {@link String}
 	 */
-	public String getName()
-	{
-		if ( StringUtils.isNotBlank( image ) )
-		{
-			return TagCreator.img().attr( "src", image ).render() + name;
-		}
-		else
-		{
-			return name;
-		}
+	public String getName() {
+//		if ( StringUtils.isNotBlank( image ) )
+//		{
+//			return TagCreator.img().attr( "src", image ).render() + name;
+//		}
+//		else
+//		{
+		return name;
+		// }
 	}
 
 	/**
@@ -67,8 +64,7 @@ public class M3UChannel
 	 * 
 	 * @param name the name to set
 	 */
-	public void setName( String name )
-	{
+	public void setName(String name) {
 		this.name = name;
 	}
 
@@ -79,8 +75,7 @@ public class M3UChannel
 	 * 
 	 * @return the groupName {@link String}
 	 */
-	public String getGroupName()
-	{
+	public String getGroupName() {
 		return groupName;
 	}
 
@@ -91,8 +86,7 @@ public class M3UChannel
 	 * 
 	 * @param groupName the groupName to set
 	 */
-	public void setGroupName( String groupName )
-	{
+	public void setGroupName(String groupName) {
 		this.groupName = groupName;
 	}
 
@@ -103,8 +97,7 @@ public class M3UChannel
 	 * 
 	 * @return the id {@link int}
 	 */
-	public int getId()
-	{
+	public int getId() {
 		return id;
 	}
 
@@ -115,8 +108,7 @@ public class M3UChannel
 	 * 
 	 * @param id the id to set
 	 */
-	public void setId( int id )
-	{
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -126,14 +118,10 @@ public class M3UChannel
 	 * @author 62000465 2019-03-18
 	 * @return the image {@link String}
 	 */
-	public String getImage()
-	{
-		if ( StringUtils.isNotBlank( image ) )
-		{
-			return TagCreator.img().attr( "src", image ).render() + name;
-		}
-		else
-		{
+	public String getImage() {
+		if (StringUtils.isNotBlank(image)) {
+			return TagCreator.img().attr("src", image).render() + name;
+		} else {
 			return "";
 		}
 	}
@@ -144,8 +132,7 @@ public class M3UChannel
 	 * @author 62000465 2019-03-18
 	 * @param image the image to set
 	 */
-	public void setImage( String image )
-	{
+	public void setImage(String image) {
 		this.image = image;
 	}
 
@@ -155,20 +142,19 @@ public class M3UChannel
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
-	public String toString()
-	{
+	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append( "M3UChannel [url=" );
-		builder.append( url );
-		builder.append( ", id=" );
-		builder.append( id );
-		builder.append( ", name=" );
-		builder.append( name );
-		builder.append( ", groupName=" );
-		builder.append( groupName );
-		builder.append( ", image=" );
-		builder.append( image );
-		builder.append( "]" );
+		builder.append("M3UChannel [url=");
+		builder.append(url);
+		builder.append(", id=");
+		builder.append(id);
+		builder.append(", name=");
+		builder.append(name);
+		builder.append(", groupName=");
+		builder.append(groupName);
+		builder.append(", image=");
+		builder.append(image);
+		builder.append("]");
 		return builder.toString();
 	}
 

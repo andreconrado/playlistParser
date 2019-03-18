@@ -53,14 +53,14 @@
 			"regex": "^(ESP: |ESP :)"
 		},
 		"França": {
-			"group": "França",
+			"group": "Franca",
 			"regex": "^(ESP: |ESP :)"
 		},
 		"Inglaterra": {
 			"group": "Inglaterra",
 			"regex": "^(UK: |UK :)"
 		},
-		"Itália": {
+		"Italia": {
 			"group": "Italia",
 			"regex": "^(IT: |IT :)"
 		},
@@ -72,8 +72,8 @@
 			"group": "Estados Unidos",
 			"regex": "^(USA: |USA :)"
 		},
-		"Polónia": {
-			"group": "Polónia",
+		"Polonia": {
+			"group": "Polonia",
 			"regex": "^(PL: |PL :)"
 		},
 		"Suiça": {
@@ -84,8 +84,8 @@
 			"group": "Holanda",
 			"regex": "^(NL: |NL :)"
 		},
-		"Bélgica": {
-			"group": "Bélgica",
+		"Belgica": {
+			"group": "Belgica",
 			"regex": "^(BE: |BE :)"
 		},
 		"Series": {

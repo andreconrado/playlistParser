@@ -74,6 +74,7 @@ public class ParserController {
 	private Resource channelFile;
 	private Preferences preferences;
 	private Map<String, TvShow_> mapTvShows = new HashMap<>();
+	private final DatabaseReference firebaseSeries;
 
 	private static DatabaseReference database;
 
@@ -81,12 +82,14 @@ public class ParserController {
 		super();
 		database = FirebaseDatabase.getInstance().getReference();
 
-		database.child("series").addValueEventListener(new ValueEventListener() {
+		firebaseSeries = database.child("series");
+		firebaseSeries.addValueEventListener(new ValueEventListener() {
 
 			@Override
 			public void onDataChange(DataSnapshot snapshot) {
-				// TODO Auto-generated method stub
-				System.out.println("onDataChange");
+
+				// mapTvShows = (Map<String, TvShow_>) snapshot.getValue();
+				logger.info("Loaded " + mapTvShows.size() + " series from firebase");
 			}
 
 			@Override
@@ -367,7 +370,7 @@ public class ParserController {
 						m3uChannel.setEpisodio(iEpisodio);
 						m3uChannel.setSeason(iSeason);
 						m3uChannel.setSerieName(StringUtils.trimToEmpty(m.group(1)));
-						TvShow_ tvShow = mapTvShows.get(m3uChannel.getSerieName());
+						TvShow_ tvShow = (TvShow_) mapTvShows.get(m3uChannel.getSerieName());
 						if (tvShow == null && !isDebug) {
 							// https://www.episodate.com/api/show-details?q=
 							String strAuxSerieName = m3uChannel.getSerieName().replaceAll(" ", "-");
@@ -384,7 +387,7 @@ public class ParserController {
 								TvShow tvShowAux = objectMapper.readValue(url, TvShow.class);
 								tvShow = tvShowAux.getTvShow();
 
-								database.child("series").child(m3uChannel.getSerieName()).setValue(tvShow,
+								firebaseSeries.child(m3uChannel.getSerieName()).setValue(tvShow,
 										new CompletionListener() {
 
 											@Override

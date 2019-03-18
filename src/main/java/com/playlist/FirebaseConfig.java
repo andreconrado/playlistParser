@@ -37,7 +37,13 @@ public class FirebaseConfig {
 			options = new FirebaseOptions.Builder()
 					.setCredentials(GoogleCredentials.fromStream(new ByteArrayInputStream(strFirebase.getBytes())))
 					.setDatabaseUrl("https://iptv-parser.firebaseio.com").build();
-			FirebaseApp.initializeApp(options);
+			try {
+				FirebaseApp.getInstance();
+			} catch (IllegalStateException e) {
+				// TODO Auto-generated catch block
+				System.err.println(e.getMessage());
+				FirebaseApp.initializeApp(options);
+			}
 		} catch (IOException e) {
 			System.err.println(e.getMessage());
 		}
