@@ -19,7 +19,8 @@
 		},
 		"SPORTV ": {
 			"logo": "lll",
-			"group": "Desporto Sport TV"
+			"group": "Desporto Sport TV",
+			"regex": "^(SPORT TV |SPORTV )"
 		},
 		"SPORTING": {
 			"group": "Desporto"
@@ -27,56 +28,65 @@
 		"EUROSPORT": {
 			"group": "Desporto"
 		},
-		"BTV ": {
-			"group": "Desporto"
+		"Benfica TV ": {
+			"group": "Desporto",
+			"regex": "^(BTV )"
 		},
 		"NFL": {
-			"logo": "lll",
-			"group": "Desporto NFL"
-		},
-		"(USA) ESPN": {
-			"logo": "lll",
-			"group": "Desporto NFL"
-		},
-		"(UK) Sky Sport 1": {
-			"logo": "lll",
-			"group": "Desporto NFL"
-		},
-		"CBS Sports Network": {
-			"logo": "lll",
-			"group": "Desporto NFL"
+			"group": "Desporto NFL",
+			"regex": "NFL"
 		},
 		"NBA": {
-			"logo": "lll",
-			"group": "Desporto"
+			"group": "Desporto NBA",
+			"regex": "NBA"
 		},
 		"Eleven": {
-			"logo": "lll",
-			"group": "Desporto ElevenSports"
+			"group": "Desporto ElevenSports",
+			"regex": "^ELEVEN SPORTS "
 		},
-		"(DE)": {
-			"group": "Alemanha"
+		"DE ": {
+			"group": "Alemanha",
+			"regex": "^(DE: |DE :)"
 		},
-		"(ES)": {
-			"group": "Espanha"
+		"ESP ": {
+			"group": "Espanha",
+			"regex": "^(ESP: |ESP :)"
 		},
-		"(FR)": {
-			"group": "França"
+		"FR": {
+			"group": "França",
+			"regex": "^(ESP: |ESP :)"
 		},
-		"(UK)": {
-			"group": "Inglaterra"
+		"UK": {
+			"group": "Inglaterra",
+			"regex": "^(UK: |UK :)"
 		},
-		"(IT)": {
-			"group": "Italia"
+		"IT": {
+			"group": "Italia",
+			"regex": "^(IT: |IT :)"
 		},
-		"(BRZ)": {
-			"group": "Brasil"
+		"BR": {
+			"group": "Brasil",
+			"regex": "^(BR: |BR :)"
 		},
-		"USA ": {
-			"group": "USA"
+		"USA": {
+			"group": "USA",
+			"regex": "^(USA: |USA :)"
 		},
-		"(PL)": {
-			"group": "Polónia"
+		"Polónia": {
+			"group": "Polónia",
+			"regex": "^(PL: |PL :)"
+		},
+		"Suiça": {
+			"group": "Suiça",
+			"regex": "^(CH: |CH :)"
+		},
+		"Holanda": {
+			"group": "Holanda",
+			"regex": "^(NL: |NL :)"
+		},
+		"Bélgica": {
+			"group": "Bélgica",
+			"regex": "^(BE: |BE :)"
 		},
 		"Series": {
 			"group": "Series",
@@ -84,7 +94,8 @@
 		},
 		"XXX": {
 			"group": "XXX",
-			"disable": true
+			"disable": true,
+			"regex": "^XXX"
 		}
 	}
 }
