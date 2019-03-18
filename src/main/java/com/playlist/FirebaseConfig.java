@@ -4,6 +4,8 @@ import java.io.ByteArrayInputStream;
 
 import javax.annotation.PostConstruct;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -15,6 +17,8 @@ import com.google.firebase.database.FirebaseDatabase;
 
 @Configuration
 public class FirebaseConfig {
+
+	private final Logger logger = LoggerFactory.getLogger(getClass());
 
 	@Bean
 	public DatabaseReference firebaseDatabse() {
@@ -40,11 +44,11 @@ public class FirebaseConfig {
 				FirebaseApp.getInstance();
 			} catch (IllegalStateException e) {
 				// TODO Auto-generated catch block
-				System.err.println(e.getMessage());
+				logger.error(e.getMessage(), e);
 				FirebaseApp.initializeApp(options);
 			}
 		} catch (Exception e) {
-			System.err.println(e.getMessage());
+			logger.error(e.getMessage(), e);
 		}
 
 	}
