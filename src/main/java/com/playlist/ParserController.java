@@ -417,6 +417,7 @@ public class ParserController
 			// read file into stream, try-with-resources
 			List< M3USerie > m3uList = new ArrayList<>();
 			int idCount = 1;
+			List< String > lstSeriesToIgnore = new ArrayList<>();
 			for ( Iterator< String > iterator = lines.iterator(); iterator.hasNext(); )
 			{
 				String line = iterator.next();
@@ -439,7 +440,7 @@ public class ParserController
 						m3uChannel.setSeason( iSeason );
 						m3uChannel.setSerieName( StringUtils.trimToEmpty( m.group( 1 ) ) );
 						TvShow_ tvShow = ( TvShow_ ) mapTvShows.get( m3uChannel.getSerieName() );
-						if ( tvShow == null && !isDebug )
+						if ( tvShow == null && !isDebug && !lstSeriesToIgnore.contains( m3uChannel.getSerieName() ) )
 						{
 							// https://www.episodate.com/api/show-details?q=
 							String strAuxSerieName = m3uChannel.getSerieName().replaceAll( " ", "-" );
@@ -470,6 +471,8 @@ public class ParserController
 							catch ( Exception e )
 							{
 								logger.error( "Erro com " + m3uChannel.getSerieName() + " :: " + e.getMessage() );
+								lstSeriesToIgnore.add( m3uChannel.getSerieName() );
+								logger.error( m3uChannel.getSerieName() + " :: " + "Adicionada a lista para ser igonrada." );
 							}
 						}
 						if ( tvShow == null )
