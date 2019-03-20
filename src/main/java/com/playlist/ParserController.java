@@ -457,12 +457,13 @@ public class ParserController
 								ObjectMapper objectMapper = new ObjectMapper();
 								TvShow tvShowAux = objectMapper.readValue( url, TvShow.class );
 								tvShow = tvShowAux.getTvShow();
+								mapTvShows.put( m3uChannel.getSerieName(), tvShow );
 								firebaseSeries.child( m3uChannel.getSerieName() ).setValue( tvShow, new CompletionListener()
 								{
 									@Override
 									public void onComplete( DatabaseError error, DatabaseReference ref )
 									{
-										System.out.println( "Complete :: " + ref.getKey() );
+										logger.info( "Add TV Show :: '" + m3uChannel.getSerieName() + "' :: " + ref.getKey() );
 									}
 								} );
 							}
@@ -473,12 +474,10 @@ public class ParserController
 						}
 						if ( tvShow == null )
 						{
-							mapTvShows.put( m3uChannel.getSerieName(), new TvShow_() );
 							m3uChannel.setName( "Season " + m3uChannel.getSeason() + " :: Ep - " + m3uChannel.getEpisodio() );
 						}
 						else
 						{
-							mapTvShows.put( m3uChannel.getSerieName(), tvShow );
 							Optional< Episode > findFirst =
 											tvShow.getEpisodes().stream().filter( p1 -> ( p1.getSeason() == m3uChannel.getSeason() ) &&
 												( p1.getEpisode() == m3uChannel.getEpisodio() ) ).findFirst();
