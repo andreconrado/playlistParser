@@ -22,14 +22,13 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
-
 import javax.servlet.http.HttpServletResponse;
-
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
@@ -40,7 +39,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -49,9 +47,9 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.DatabaseReference.CompletionListener;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.playlist.domain.Episode;
+import com.playlist.domain.Logs;
 import com.playlist.domain.M3UChannel;
 import com.playlist.domain.M3USerie;
 import com.playlist.domain.Preferences;
@@ -74,22 +72,26 @@ public class ParserController {
 	private Resource channelFile;
 	private Preferences preferences;
 	private Map<String, TvShow_> mapTvShows = new HashMap<>();
+	private Logs						clsLogs		= new Logs();
 	private final DatabaseReference firebaseSeries;
+	private final DatabaseReference		firebaseLogs;
 
-	private static DatabaseReference database;
-
-	public ParserController() {
+	public ParserController( @Autowired FirebaseConfig firebaseConfig )
+	{
 		super();
-		database = FirebaseDatabase.getInstance().getReference();
+
+		DatabaseReference database = firebaseConfig.firebaseDatabse();
 
 		firebaseSeries = database.child("series");
+		firebaseLogs = database.child( "logs" );
+
 		firebaseSeries.addValueEventListener(new ValueEventListener() {
 
 			@Override
 			public void onDataChange(DataSnapshot snapshot) {
 
-				// mapTvShows = (Map<String, TvShow_>) snapshot.getValue();
-				logger.info("Loaded " + mapTvShows.size() + " series from firebase");
+				mapTvShows = ( Map< String, TvShow_ > ) snapshot.getValue();
+				logger.info( "Loaded " + mapTvShows.size() + " series from firebase" );
 			}
 
 			@Override
@@ -98,6 +100,15 @@ public class ParserController {
 				System.out.println("onDataChange");
 			}
 		});
+		clsLogs.addLog( "Start App" );
+		firebaseLogs.setValue( clsLogs.getLogs(), new CompletionListener()
+		{
+			@Override
+			public void onComplete( DatabaseError error, DatabaseReference ref )
+			{
+				logger.info( error.getMessage() );
+			}
+		} );
 	}
 
 	@RequestMapping(value = "/version", method = RequestMethod.GET)
@@ -110,6 +121,15 @@ public class ParserController {
 		} catch (IOException e) {
 			logger.error(e.getMessage());
 		}
+		clsLogs.addLog( "Check version" );
+		firebaseLogs.setValue( clsLogs.getLogs(), new CompletionListener()
+		{
+			@Override
+			public void onComplete( DatabaseError error, DatabaseReference ref )
+			{
+				logger.info( error.getMessage() );
+			}
+		} );
 		return version;
 	}
 
@@ -342,13 +362,7 @@ public class ParserController {
 			@RequestParam(value = "debug", required = false, defaultValue = "false") Boolean isDebug) {
 		try {
 			final List<String> lines = readFile(isDebug, username, password);
-			database.child("logs").setValue("Lidos " + lines.size(), new CompletionListener() {
 
-				@Override
-				public void onComplete(DatabaseError error, DatabaseReference ref) {
-					System.out.println("Complete :: " + ref.getKey());
-				}
-			});
 			// read file into stream, try-with-resources
 			List<M3USerie> m3uList = new ArrayList<>();
 			int idCount = 1;
