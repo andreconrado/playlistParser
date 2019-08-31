@@ -46,27 +46,27 @@
 		},
 		"Alemanha": {
 			"group": "Alemanha",
-			"regex": "^(DE] |DE :)"
+			"regex": "^[DE]|DE :)"
 		},
 		"Espanha": {
 			"group": "Espanha",
-			"regex": "^(ESP] |ESP :)"
+			"regex": "^[ESP]|ESP :)"
 		},
 		"França": {
 			"group": "Franca",
-			"regex": "^(ESP] |ESP :)"
+			"regex": "^[FR]|ESP :)"
 		},
 		"Inglaterra": {
 			"group": "Inglaterra",
-			"regex": "^(UK] |UK :)"
+			"regex": "^[UK]|UK :)"
 		},
 		"Italia": {
 			"group": "Italia",
-			"regex": "^(IT] |IT :)"
+			"regex": "^[IT]|IT :)"
 		},
 		"Brasil": {
 			"group": "Brasil",
-			"regex": "^(BR] |BR :)"
+			"regex": "^[BR]|BR :)"
 		},
 		"Estados Unidos": {
 			"group": "Estados Unidos",
@@ -74,19 +74,23 @@
 		},
 		"Polonia": {
 			"group": "Polonia",
-			"regex": "^(PL] |PL :)"
+			"regex": "^[PL]|PL :)"
 		},
 		"Suiça": {
 			"group": "Suiça",
-			"regex": "^(CH] |CH :)"
+			"regex": "^[CH]|CH :)"
 		},
 		"Holanda": {
 			"group": "Holanda",
-			"regex": "^(NL] |NL :)"
+			"regex": "^[NL]|NL :)"
 		},
 		"Belgica": {
 			"group": "Belgica",
-			"regex": "^(BE] |BE :)"
+			"regex": "^[BE]|BE :)"
+		},
+		"Austria": {
+			"group": "Austria",
+			"regex": "^[AU]|AU :)"
 		},
 		"Series": {
 			"group": "Series",
