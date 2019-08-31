@@ -82,7 +82,7 @@
 		},
 		"Holanda": {
 			"group": "Holanda",
-			"regex": "^[NL]|NL :)"
+			"regex": "^[NL]|NL )"
 		},
 		"Belgica": {
 			"group": "Belgica",
