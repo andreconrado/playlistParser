@@ -70,7 +70,7 @@
 		},
 		"Estados Unidos": {
 			"group": "Estados Unidos",
-			"regex": "^(USA] |USA :)"
+			"regex": "^([USA]|USA :)"
 		},
 		"Polonia": {
 			"group": "Polonia",
