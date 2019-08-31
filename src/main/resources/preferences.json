@@ -80,10 +80,6 @@
 			"group": "Suiça",
 			"regex": "^[CH]|CH :)"
 		},
-		"Holanda": {
-			"group": "Holanda",
-			"regex": "^[NL]|NL )"
-		},
 		"Belgica": {
 			"group": "Belgica",
 			"regex": "^[BE]|BE :)"
