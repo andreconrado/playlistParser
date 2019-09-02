@@ -20,7 +20,7 @@
 		"SPORTV ": {
 			"logo": "lll",
 			"group": "Desporto Sport TV",
-			"regex": "^(SPORT TV |SPORTV )"
+			"regex": "^(SPORT TV|SPORTV )"
 		},
 		"SPORTING": {
 			"group": "Desporto"

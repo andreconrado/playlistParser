@@ -10,27 +10,17 @@ import javax.annotation.PostConstruct;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 @Configuration
 public class FirebaseConfig
 {
 	private final Logger logger = LoggerFactory.getLogger( FirebaseConfig.class );
-
-	@Bean
-	public DatabaseReference firebaseDatabse()
-	{
-		DatabaseReference firebase = FirebaseDatabase.getInstance().getReference();
-		return firebase;
-	}
 
 	@PostConstruct
 	public void init()
@@ -68,7 +58,7 @@ public class FirebaseConfig
 		}
 		catch ( Exception e )
 		{
-			logger.error( e.getMessage(), e );
+			logger.error( e.getMessage() );
 		}
 	}
 

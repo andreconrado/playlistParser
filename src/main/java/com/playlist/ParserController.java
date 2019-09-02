@@ -27,6 +27,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.text.WordUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -48,6 +49,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.DatabaseReference.CompletionListener;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.playlist.domain.Episode;
 import com.playlist.domain.Logs;
@@ -75,53 +77,60 @@ public class ParserController
 	private Preferences				preferences;
 	private Map< String, TvShow_ >	mapTvShows	= new HashMap<>();
 	private Logs					clsLogs		= new Logs();
-	private final DatabaseReference	firebaseSeries;
-	private final DatabaseReference	firebaseLogs;
+	private DatabaseReference		firebaseSeries;
+	private DatabaseReference		firebaseLogs;
 
 	public ParserController( @Autowired FirebaseConfig firebaseConfig )
 	{
 		super();
-		DatabaseReference database = firebaseConfig.firebaseDatabse();
-		firebaseSeries = database.child( "series" );
-		firebaseLogs = database.child( "logs" );
-		firebaseSeries.addValueEventListener( new ValueEventListener()
+		try
 		{
-			@Override
-			public void onDataChange( DataSnapshot snapshot )
+			DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+			firebaseSeries = database.child( "series" );
+			firebaseLogs = database.child( "logs" );
+			firebaseSeries.addValueEventListener( new ValueEventListener()
 			{
-				Map< String, Object > map = ( Map< String, Object > ) snapshot.getValue();
-				for ( Entry< String, Object > entry : map.entrySet() )
+				@Override
+				public void onDataChange( DataSnapshot snapshot )
 				{
-					String key = entry.getKey();
-					try
+					Map< String, Object > map = ( Map< String, Object > ) snapshot.getValue();
+					for ( Entry< String, Object > entry : map.entrySet() )
 					{
-						TvShow_ value = snapshot.child( key ).getValue( TvShow_.class );
-						mapTvShows.put( key, value );
+						String key = entry.getKey();
+						try
+						{
+							TvShow_ value = snapshot.child( key ).getValue( TvShow_.class );
+							mapTvShows.put( key, value );
+						}
+						catch ( Exception e )
+						{
+							logger.error( key + " :: " + e.getMessage() );
+						}
 					}
-					catch ( Exception e )
-					{
-						logger.error( key + " :: " + e.getMessage() );
-					}
+					logger.info( "Loaded " + mapTvShows.size() + " series from firebase" );
 				}
-				logger.info( "Loaded " + mapTvShows.size() + " series from firebase" );
-			}
 
-			@Override
-			public void onCancelled( DatabaseError error )
+				@Override
+				public void onCancelled( DatabaseError error )
+				{
+					// TODO Auto-generated method stub
+					System.out.println( "onDataChange" );
+				}
+			} );
+			clsLogs.addLog( "Start App" );
+			firebaseLogs.setValue( clsLogs.getLogs(), new CompletionListener()
 			{
-				// TODO Auto-generated method stub
-				System.out.println( "onDataChange" );
-			}
-		} );
-		clsLogs.addLog( "Start App" );
-		firebaseLogs.setValue( clsLogs.getLogs(), new CompletionListener()
+				@Override
+				public void onComplete( DatabaseError error, DatabaseReference ref )
+				{
+					logger.info( error.getMessage() );
+				}
+			} );
+		}
+		catch ( Exception e )
 		{
-			@Override
-			public void onComplete( DatabaseError error, DatabaseReference ref )
-			{
-				logger.info( error.getMessage() );
-			}
-		} );
+			logger.error( e.getMessage() );
+		}
 	}
 
 	@RequestMapping( value = "/version", method = RequestMethod.GET )
@@ -194,41 +203,8 @@ public class ParserController
 		{
 			final List< String > lines = readFile( isDebug, username, password );
 			// read file into stream, try-with-resources
-			List< M3UChannel > m3uList = new ArrayList<>();
-			String groupName = "Sem grupo";
-			int idCount = 1;
-			String strRegex = System.getenv( "seriesRegex" );
-			if ( StringUtils.isBlank( strRegex ) )
-			{
-				strRegex = "(.*?)[.\\s][sS](\\d{2}) [eE](\\d{2}).*";
-			}
-			Pattern p = Pattern.compile( strRegex );
-			for ( Iterator< String > iterator = lines.iterator(); iterator.hasNext(); )
-			{
-				String line = iterator.next();
-				if ( line.startsWith( "#EXTINF:" ) )
-				{
-					Matcher m = p.matcher( StringUtils.substringBetween( line, "tvg-name=\"", "\"" ).trim() );
-					if ( !m.matches() )
-					{
-						if ( line.contains( "►" ) )
-						{
-							groupName = StringUtils.substringBetween( line, "\"►►►", "◄◄◄\"" ).trim();
-						}
-						else
-						{
-							M3UChannel m3uChannel = new M3UChannel();
-							String strChannelName = StringUtils.substringBetween( line, "tvg-name=\"", "\"" ).trim();
-							String channelUrl = iterator.next();
-							m3uChannel.setName( strChannelName );
-							m3uChannel.setUrl( channelUrl );
-							m3uChannel.setGroupName( groupName );
-							m3uChannel.setId( idCount++ );
-							m3uList.add( m3uChannel );
-						}
-					}
-				}
-			}
+			List< M3UChannel > m3uList = getListaCanais( lines, null );
+
 			File newPlaylistFile = new File( output );
 			newPlaylistFile.delete();
 			newPlaylistFile.createNewFile();
@@ -314,45 +290,46 @@ public class ParserController
 				for ( M3UChannel m3uChannel : m3uList )
 				{
 					Optional< PreferencesChannel > findPreferenceChannel = getPreferences().findPreferenceChannel( m3uChannel );
-					if ( findPreferenceChannel.isPresent() && !findPreferenceChannel.get().isDisable() )
+					if ( findPreferenceChannel.isPresent() && findPreferenceChannel.get().isDisable() )
 					{
-						StringBuilder sb = new StringBuilder();
-						// id
-						sb.append( "#EXTINF:" );
-						if ( findPreferenceChannel.isPresent() && ( findPreferenceChannel.get().getId() > 0 ) )
-						{
-							sb.append( findPreferenceChannel.get().getId() );
-						}
-						else
-						{
-							sb.append( id );
-						}
-						id++;
-						sb.append( ", " );
-						// Name
-						if ( findPreferenceChannel.isPresent() && ( findPreferenceChannel.get().getName().length() > 0 ) )
-						{
-							sb.append( findPreferenceChannel.get().getName() );
-						}
-						else
-						{
-							sb.append( m3uChannel.getName() );
-						}
-						printWriter.println( sb.toString() );
-						sb = new StringBuilder();
-						// Group
-						sb.append( "#EXTGRP:" );
-						if ( findPreferenceChannel.isPresent() && ( findPreferenceChannel.get().getGroup().length() > 0 ) )
-						{
-							sb.append( findPreferenceChannel.get().getGroup() );
-						}
-						else
-						{
-							sb.append( m3uChannel.getGroupName() );
-						}
-						printWriter.println( sb.toString() );
-						printWriter.println( m3uChannel.getUrl() );
+						continue;
 					}
+					StringBuilder sb = new StringBuilder();
+					// id
+					sb.append( "#EXTINF:" );
+					if ( findPreferenceChannel.isPresent() && ( findPreferenceChannel.get().getId() > 0 ) )
+					{
+						sb.append( findPreferenceChannel.get().getId() );
+					}
+					else
+					{
+						sb.append( id );
+					}
+					id++;
+					sb.append( ", " );
+					// Name
+					if ( findPreferenceChannel.isPresent() && ( findPreferenceChannel.get().getName().length() > 0 ) )
+					{
+						sb.append( findPreferenceChannel.get().getName() );
+					}
+					else
+					{
+						sb.append( m3uChannel.getName() );
+					}
+					printWriter.println( sb.toString() );
+					sb = new StringBuilder();
+					// Group
+					sb.append( "#EXTGRP:" );
+					if ( findPreferenceChannel.isPresent() && ( findPreferenceChannel.get().getGroup().length() > 0 ) )
+					{
+						sb.append( findPreferenceChannel.get().getGroup() );
+					}
+					else
+					{
+						sb.append( m3uChannel.getGroupName() );
+					}
+					printWriter.println( sb.toString() );
+					printWriter.println( m3uChannel.getUrl() );
 					id++;
 				}
 				printWriter.flush();
@@ -580,29 +557,21 @@ public class ParserController
 			// read file into stream, try-with-resources
 			List< M3USerie > m3uList = new ArrayList<>();
 			int idCount = 1;
-			String strMoviesTvgName = System.getenv( "movies-tvg-name" );
-			if ( StringUtils.isBlank( strMoviesTvgName ) )
+
+			String strMoviesRegex = System.getenv( "moviesRegex" );
+			if ( StringUtils.isBlank( strMoviesRegex ) )
 			{
-				strMoviesTvgName = "►►►►►►   VOD Video Clube   ◄◄◄◄◄◄";
+				strMoviesRegex = "tvg-name=\"(.+?)\".*tvg-logo=\"(.+?)\".*group-title=\"(.+?)\"";
 			}
+			Pattern p = Pattern.compile( strMoviesRegex );
 			for ( Iterator< String > iterator = lines.iterator(); iterator.hasNext(); )
 			{
 				String line = iterator.next();
-				if ( line.contains( strMoviesTvgName ) )
+				if ( line.startsWith( "#EXTINF:" ) )
 				{
-					line = iterator.next();
-					String strMoviesRegex = System.getenv( "moviesRegex" );
-					if ( StringUtils.isBlank( strMoviesRegex ) )
+					String channelUrl = iterator.next();
+					if ( StringUtils.contains( channelUrl, "/movie/" ) )
 					{
-						strMoviesRegex = "tvg-name=\"(.+?)\".*tvg-logo=\"(.+?)\".*group-title=\"(.+?)\"";
-					}
-					Pattern p = Pattern.compile( strMoviesRegex );
-					while ( iterator.hasNext() )
-					{
-						if ( line.contains( "►►►" ) )
-						{
-							break;
-						}
 						Matcher m = p.matcher( line );
 						if ( m.find() && m.groupCount() > 1 )
 						{
@@ -610,15 +579,13 @@ public class ParserController
 							String movieImage = m.group( 2 );
 							String movieGroupName = m.group( 3 );
 							M3USerie m3uChannel = new M3USerie();
-							m3uChannel.setName( movieName );
+							m3uChannel.setName( WordUtils.capitalizeFully( movieName.toLowerCase() ) );
 							m3uChannel.setImage( movieImage );
-							String channelUrl = iterator.next();
 							m3uChannel.setUrl( channelUrl );
-							m3uChannel.setGroupName( StringUtils.capitalize( movieGroupName.toLowerCase() ) );
+							m3uChannel.setGroupName( WordUtils.capitalizeFully( movieGroupName.toLowerCase() ) );
 							m3uChannel.setId( idCount++ );
 							m3uList.add( m3uChannel );
 						}
-						line = iterator.next();
 					}
 				}
 			}
@@ -804,5 +771,56 @@ public class ParserController
 		}
 		logger.info( "Readed " + lines.size() + " lines." );
 		return lines;
+	}
+
+	/**
+	 * The <b>getListaCanais</b> method returns {@link List<M3UChannel>}
+	 * 
+	 * @author 62000465 2019-09-02
+	 * @param lines
+	 * @return
+	 */
+	private List< M3UChannel > getListaCanais( List< String > lines, String strType )
+	{
+		List< M3UChannel > m3uList = new ArrayList<>();
+		int idCount = 1;
+		String strRegex = System.getenv( "seriesRegex" );
+		if ( StringUtils.isBlank( strRegex ) )
+		{
+			strRegex = "tvg-name=\"(.+?)\".*tvg-logo=\"(.+?)\".*group-title=\"(.+?)\"";
+		}
+		Pattern p = Pattern.compile( strRegex );
+		for ( Iterator< String > iterator = lines.iterator(); iterator.hasNext(); )
+		{
+			String line = iterator.next();
+			if ( line.startsWith( "#EXTINF:" ) && !line.contains( "★" ) )
+			{
+				String channelUrl = iterator.next();
+				if ( StringUtils.isBlank( strType ) &&
+					( StringUtils.contains( channelUrl, "/movie/" ) || StringUtils.contains( channelUrl, "/series/" ) ) )
+				{
+					continue;
+				}
+				else if ( StringUtils.isNotBlank( strType ) && !StringUtils.contains( channelUrl, strType ) )
+				{
+					continue;
+				}
+				Matcher m = p.matcher( line );
+				if ( m.find() && m.groupCount() > 1 )
+				{
+					String name = m.group( 1 );
+					String logo = m.group( 2 );
+					String groupName = m.group( 3 );
+					M3UChannel m3uChannel = new M3UChannel();
+					m3uChannel.setName( name );
+					m3uChannel.setUrl( channelUrl );
+					m3uChannel.setGroupName( groupName );
+					m3uChannel.setImage( logo );
+					m3uChannel.setId( idCount++ );
+					m3uList.add( m3uChannel );
+				}
+			}
+		}
+		return m3uList;
 	}
 }
