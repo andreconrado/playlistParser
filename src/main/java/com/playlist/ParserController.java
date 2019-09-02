@@ -784,7 +784,7 @@ public class ParserController
 	{
 		List< M3UChannel > m3uList = new ArrayList<>();
 		int idCount = 1;
-		String strRegex = System.getenv( "seriesRegex" );
+		String strRegex = System.getenv( "lineRegex" );
 		if ( StringUtils.isBlank( strRegex ) )
 		{
 			strRegex = "tvg-name=\"(.+?)\".*tvg-logo=\"(.+?)\".*group-title=\"(.+?)\"";
